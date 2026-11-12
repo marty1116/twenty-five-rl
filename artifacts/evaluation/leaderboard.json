@@ -1,0 +1,710 @@
+{
+  "requested_games_per_policy": 80,
+  "benchmark_suite": "baseline",
+  "benchmark_opponents": [
+    "random",
+    "greedy",
+    "conservative",
+    "counting"
+  ],
+  "actual_games_per_policy": {
+    "random": 80,
+    "lowest": 80,
+    "greedy": 80,
+    "conservative": 80,
+    "counting": 80
+  },
+  "held_out_evaluation_seeds": [
+    9001,
+    9002,
+    9003,
+    9004,
+    9005
+  ],
+  "two_player_evaluation_seeds": [
+    9001,
+    9002,
+    9003,
+    9004,
+    9005,
+    1009004,
+    1009005,
+    1009006,
+    1009007,
+    1009008,
+    2009007,
+    2009008,
+    2009009,
+    2009010,
+    2009011,
+    3009010,
+    3009011,
+    3009012,
+    3009013,
+    3009014
+  ],
+  "duplicate_deals": true,
+  "seat_rotation": true,
+  "dealer_rotation": true,
+  "confidence_interval": "cluster bootstrap over deal seeds",
+  "rows": [
+    {
+      "policy": "random",
+      "total_games": 80,
+      "wins": 16,
+      "win_rate": 0.2,
+      "ci95_low": 0.15,
+      "ci95_high": 0.25,
+      "wilson_ci95_low": 0.1270273637929335,
+      "wilson_ci95_high": 0.3004644779658116,
+      "average_final_score": 11.875,
+      "average_score_differential": -11.0,
+      "average_tricks_per_round": 0.9854166666666666,
+      "average_rounds_per_match": 2.425,
+      "win_rate_by_seat": {
+        "0": 0.2,
+        "1": 0.2,
+        "2": 0.2,
+        "3": 0.2
+      },
+      "win_rate_by_dealer": {
+        "0": 0.25,
+        "1": 0.15,
+        "2": 0.25,
+        "3": 0.15
+      },
+      "win_rate_by_player_count": {
+        "4": 0.2
+      },
+      "average_trick_share_by_trump_suit": {
+        "1": 0.1980769230769231,
+        "0": 0.24791666666666667,
+        "2": 0.2010752688172043,
+        "3": 0.225
+      },
+      "two_player_win_rate_against": {
+        "random": null,
+        "lowest": 0.725,
+        "greedy": 0.375,
+        "conservative": 0.4,
+        "counting": 0.5
+      },
+      "multiplayer_win_rate_against_homogeneous_table": {
+        "random": null,
+        "lowest": 0.85,
+        "greedy": 0.05,
+        "conservative": 0.05,
+        "counting": 0.45
+      },
+      "rob_opportunities": 12,
+      "rob_discard_choices": [
+        {
+          "card": 31,
+          "estimated_value": 10.500000000000002
+        },
+        {
+          "card": 40,
+          "estimated_value": 10.0
+        },
+        {
+          "card": 31,
+          "estimated_value": 10.500000000000002
+        },
+        {
+          "card": 40,
+          "estimated_value": 10.0
+        },
+        {
+          "card": 42,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 39,
+          "estimated_value": 24.5
+        },
+        {
+          "card": 42,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 39,
+          "estimated_value": 24.5
+        },
+        {
+          "card": 10,
+          "estimated_value": 32.00000000000001
+        },
+        {
+          "card": 10,
+          "estimated_value": 32.00000000000001
+        },
+        {
+          "card": 10,
+          "estimated_value": 32.00000000000001
+        },
+        {
+          "card": 10,
+          "estimated_value": 32.00000000000001
+        }
+      ],
+      "matches_with_rob": 12,
+      "win_rate_in_matches_with_rob": 0.5,
+      "invalid_action_count": 0,
+      "illegal_mask_action_disagreement_count": 0,
+      "mean_episodic_return": -0.06666666666666665,
+      "return_variance": 0.28444444444444444,
+      "mean_game_length": 41.9,
+      "inference_latency_ms": 0.0006349731022807298,
+      "bradley_terry_rating": 1501.7934787418164,
+      "training_steps": null,
+      "training_wall_clock_seconds": null,
+      "model_parameter_count": 0,
+      "checkpoint_identifier": "baseline",
+      "training_seed": null,
+      "evaluation_seeds": [
+        9001,
+        9002,
+        9003,
+        9004,
+        9005
+      ]
+    },
+    {
+      "policy": "lowest",
+      "total_games": 80,
+      "wins": 10,
+      "win_rate": 0.125,
+      "ci95_low": 0.025,
+      "ci95_high": 0.225,
+      "wilson_ci95_low": 0.06933483036777514,
+      "wilson_ci95_high": 0.2150299718306562,
+      "average_final_score": 10.375,
+      "average_score_differential": -13.75,
+      "average_tricks_per_round": 0.7583333333333333,
+      "average_rounds_per_match": 2.575,
+      "win_rate_by_seat": {
+        "0": 0.15,
+        "1": 0.1,
+        "2": 0.15,
+        "3": 0.1
+      },
+      "win_rate_by_dealer": {
+        "0": 0.15,
+        "1": 0.1,
+        "2": 0.15,
+        "3": 0.1
+      },
+      "win_rate_by_player_count": {
+        "4": 0.125
+      },
+      "average_trick_share_by_trump_suit": {
+        "1": 0.18444444444444444,
+        "0": 0.16302083333333334,
+        "2": 0.1575757575757576,
+        "3": 0.25
+      },
+      "two_player_win_rate_against": {
+        "random": 0.275,
+        "lowest": null,
+        "greedy": 0.175,
+        "conservative": 0.225,
+        "counting": 0.275
+      },
+      "multiplayer_win_rate_against_homogeneous_table": {
+        "random": 0.25,
+        "lowest": null,
+        "greedy": 0.0,
+        "conservative": 0.05,
+        "counting": 0.05
+      },
+      "rob_opportunities": 10,
+      "rob_discard_choices": [
+        {
+          "card": 40,
+          "estimated_value": 10.0
+        },
+        {
+          "card": 40,
+          "estimated_value": 10.0
+        },
+        {
+          "card": 40,
+          "estimated_value": 10.0
+        },
+        {
+          "card": 40,
+          "estimated_value": 10.0
+        },
+        {
+          "card": 20,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 20,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 39,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 39,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 39,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 39,
+          "estimated_value": 12.5
+        }
+      ],
+      "matches_with_rob": 10,
+      "win_rate_in_matches_with_rob": 0.4,
+      "invalid_action_count": 0,
+      "illegal_mask_action_disagreement_count": 0,
+      "mean_episodic_return": -0.16666666666666666,
+      "return_variance": 0.19444444444444445,
+      "mean_game_length": 43.1,
+      "inference_latency_ms": 0.008123082287608352,
+      "bradley_terry_rating": 1339.1869583559708,
+      "training_steps": null,
+      "training_wall_clock_seconds": null,
+      "model_parameter_count": 0,
+      "checkpoint_identifier": "baseline",
+      "training_seed": null,
+      "evaluation_seeds": [
+        9001,
+        9002,
+        9003,
+        9004,
+        9005
+      ]
+    },
+    {
+      "policy": "greedy",
+      "total_games": 80,
+      "wins": 24,
+      "win_rate": 0.3,
+      "ci95_low": 0.2,
+      "ci95_high": 0.375,
+      "wilson_ci95_low": 0.21064429162615705,
+      "wilson_ci95_high": 0.407683602879673,
+      "average_final_score": 13.0,
+      "average_score_differential": -8.0,
+      "average_tricks_per_round": 1.1541666666666666,
+      "average_rounds_per_match": 2.35,
+      "win_rate_by_seat": {
+        "0": 0.3,
+        "1": 0.3,
+        "2": 0.3,
+        "3": 0.3
+      },
+      "win_rate_by_dealer": {
+        "0": 0.3,
+        "1": 0.3,
+        "2": 0.3,
+        "3": 0.3
+      },
+      "win_rate_by_player_count": {
+        "4": 0.3
+      },
+      "average_trick_share_by_trump_suit": {
+        "1": 0.22266666666666665,
+        "0": 0.306989247311828,
+        "2": 0.2738888888888889,
+        "3": 0.275
+      },
+      "two_player_win_rate_against": {
+        "random": 0.625,
+        "lowest": 0.825,
+        "greedy": null,
+        "conservative": 0.575,
+        "counting": 0.55
+      },
+      "multiplayer_win_rate_against_homogeneous_table": {
+        "random": 0.25,
+        "lowest": 0.9,
+        "greedy": null,
+        "conservative": 0.25,
+        "counting": 0.5
+      },
+      "rob_opportunities": 8,
+      "rob_discard_choices": [
+        {
+          "card": 40,
+          "estimated_value": 10.0
+        },
+        {
+          "card": 40,
+          "estimated_value": 10.0
+        },
+        {
+          "card": 40,
+          "estimated_value": 10.0
+        },
+        {
+          "card": 40,
+          "estimated_value": 10.0
+        },
+        {
+          "card": 39,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 39,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 39,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 39,
+          "estimated_value": 12.5
+        }
+      ],
+      "matches_with_rob": 8,
+      "win_rate_in_matches_with_rob": 0.25,
+      "invalid_action_count": 0,
+      "illegal_mask_action_disagreement_count": 0,
+      "mean_episodic_return": 0.06666666666666668,
+      "return_variance": 0.37333333333333335,
+      "mean_game_length": 39.35,
+      "inference_latency_ms": 0.008902379916157655,
+      "bradley_terry_rating": 1586.3510629876903,
+      "training_steps": null,
+      "training_wall_clock_seconds": null,
+      "model_parameter_count": 0,
+      "checkpoint_identifier": "baseline",
+      "training_seed": null,
+      "evaluation_seeds": [
+        9001,
+        9002,
+        9003,
+        9004,
+        9005
+      ]
+    },
+    {
+      "policy": "conservative",
+      "total_games": 80,
+      "wins": 20,
+      "win_rate": 0.25,
+      "ci95_low": 0.175,
+      "ci95_high": 0.325,
+      "wilson_ci95_low": 0.1680610581209431,
+      "wilson_ci95_high": 0.3548488100113445,
+      "average_final_score": 12.75,
+      "average_score_differential": -9.5,
+      "average_tricks_per_round": 1.0708333333333333,
+      "average_rounds_per_match": 2.375,
+      "win_rate_by_seat": {
+        "0": 0.25,
+        "1": 0.25,
+        "2": 0.25,
+        "3": 0.25
+      },
+      "win_rate_by_dealer": {
+        "0": 0.3,
+        "1": 0.2,
+        "2": 0.3,
+        "3": 0.2
+      },
+      "win_rate_by_player_count": {
+        "4": 0.25
+      },
+      "average_trick_share_by_trump_suit": {
+        "1": 0.26333333333333336,
+        "0": 0.22055555555555556,
+        "2": 0.2598958333333333,
+        "3": 0.25
+      },
+      "two_player_win_rate_against": {
+        "random": 0.6,
+        "lowest": 0.775,
+        "greedy": 0.425,
+        "conservative": null,
+        "counting": 0.525
+      },
+      "multiplayer_win_rate_against_homogeneous_table": {
+        "random": 0.25,
+        "lowest": 0.45,
+        "greedy": 0.2,
+        "conservative": null,
+        "counting": 0.45
+      },
+      "rob_opportunities": 12,
+      "rob_discard_choices": [
+        {
+          "card": 40,
+          "estimated_value": 10.0
+        },
+        {
+          "card": 40,
+          "estimated_value": 10.0
+        },
+        {
+          "card": 40,
+          "estimated_value": 10.0
+        },
+        {
+          "card": 40,
+          "estimated_value": 10.0
+        },
+        {
+          "card": 20,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 20,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 15,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 15,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 39,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 39,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 39,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 39,
+          "estimated_value": 12.5
+        }
+      ],
+      "matches_with_rob": 12,
+      "win_rate_in_matches_with_rob": 0.3333333333333333,
+      "invalid_action_count": 0,
+      "illegal_mask_action_disagreement_count": 0,
+      "mean_episodic_return": 1.3877787807814457e-17,
+      "return_variance": 0.3333333333333333,
+      "mean_game_length": 40.8,
+      "inference_latency_ms": 0.013239188725213152,
+      "bradley_terry_rating": 1549.1066989153705,
+      "training_steps": null,
+      "training_wall_clock_seconds": null,
+      "model_parameter_count": 0,
+      "checkpoint_identifier": "baseline",
+      "training_seed": null,
+      "evaluation_seeds": [
+        9001,
+        9002,
+        9003,
+        9004,
+        9005
+      ]
+    },
+    {
+      "policy": "counting",
+      "total_games": 80,
+      "wins": 18,
+      "win_rate": 0.225,
+      "ci95_low": 0.15,
+      "ci95_high": 0.3,
+      "wilson_ci95_low": 0.1473309016978239,
+      "wilson_ci95_high": 0.3278699532476924,
+      "average_final_score": 11.875,
+      "average_score_differential": -10.75,
+      "average_tricks_per_round": 0.9291666666666666,
+      "average_rounds_per_match": 2.475,
+      "win_rate_by_seat": {
+        "0": 0.3,
+        "1": 0.15,
+        "2": 0.3,
+        "3": 0.15
+      },
+      "win_rate_by_dealer": {
+        "0": 0.25,
+        "1": 0.2,
+        "2": 0.25,
+        "3": 0.2
+      },
+      "win_rate_by_player_count": {
+        "4": 0.225
+      },
+      "average_trick_share_by_trump_suit": {
+        "1": 0.22988505747126436,
+        "0": 0.23440860215053763,
+        "2": 0.24677419354838712,
+        "3": 0.275
+      },
+      "two_player_win_rate_against": {
+        "random": 0.5,
+        "lowest": 0.725,
+        "greedy": 0.45,
+        "conservative": 0.475,
+        "counting": null
+      },
+      "multiplayer_win_rate_against_homogeneous_table": {
+        "random": 0.2,
+        "lowest": 0.25,
+        "greedy": 0.2,
+        "conservative": 0.25,
+        "counting": null
+      },
+      "rob_opportunities": 12,
+      "rob_discard_choices": [
+        {
+          "card": 40,
+          "estimated_value": 10.0
+        },
+        {
+          "card": 40,
+          "estimated_value": 10.0
+        },
+        {
+          "card": 44,
+          "estimated_value": 10.500000000000002
+        },
+        {
+          "card": 40,
+          "estimated_value": 10.0
+        },
+        {
+          "card": 44,
+          "estimated_value": 10.500000000000002
+        },
+        {
+          "card": 40,
+          "estimated_value": 10.0
+        },
+        {
+          "card": 20,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 20,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 39,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 39,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 39,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 39,
+          "estimated_value": 12.5
+        }
+      ],
+      "matches_with_rob": 12,
+      "win_rate_in_matches_with_rob": 0.3333333333333333,
+      "invalid_action_count": 0,
+      "illegal_mask_action_disagreement_count": 0,
+      "mean_episodic_return": -0.03333333333333332,
+      "return_variance": 0.31,
+      "mean_game_length": 40.8,
+      "inference_latency_ms": 0.030399763990944184,
+      "bradley_terry_rating": 1523.5618009991524,
+      "training_steps": null,
+      "training_wall_clock_seconds": null,
+      "model_parameter_count": 0,
+      "checkpoint_identifier": "baseline",
+      "training_seed": null,
+      "evaluation_seeds": [
+        9001,
+        9002,
+        9003,
+        9004,
+        9005
+      ]
+    }
+  ],
+  "two_player_head_to_head_matrix": {
+    "random": {
+      "random": null,
+      "lowest": 0.725,
+      "greedy": 0.375,
+      "conservative": 0.4,
+      "counting": 0.5
+    },
+    "lowest": {
+      "random": 0.275,
+      "lowest": null,
+      "greedy": 0.175,
+      "conservative": 0.225,
+      "counting": 0.275
+    },
+    "greedy": {
+      "random": 0.625,
+      "lowest": 0.825,
+      "greedy": null,
+      "conservative": 0.575,
+      "counting": 0.55
+    },
+    "conservative": {
+      "random": 0.6,
+      "lowest": 0.775,
+      "greedy": 0.425,
+      "conservative": null,
+      "counting": 0.525
+    },
+    "counting": {
+      "random": 0.5,
+      "lowest": 0.725,
+      "greedy": 0.45,
+      "conservative": 0.475,
+      "counting": null
+    }
+  },
+  "multiplayer_homogeneous_table_matrix": {
+    "random": {
+      "random": null,
+      "lowest": 0.85,
+      "greedy": 0.05,
+      "conservative": 0.05,
+      "counting": 0.45
+    },
+    "lowest": {
+      "random": 0.25,
+      "lowest": null,
+      "greedy": 0.0,
+      "conservative": 0.05,
+      "counting": 0.05
+    },
+    "greedy": {
+      "random": 0.25,
+      "lowest": 0.9,
+      "greedy": null,
+      "conservative": 0.25,
+      "counting": 0.5
+    },
+    "conservative": {
+      "random": 0.25,
+      "lowest": 0.45,
+      "greedy": 0.2,
+      "conservative": null,
+      "counting": 0.45
+    },
+    "counting": {
+      "random": 0.2,
+      "lowest": 0.25,
+      "greedy": 0.2,
+      "conservative": 0.25,
+      "counting": null
+    }
+  },
+  "multiplayer_matchup_games_per_cell": 20,
+  "cyclic_matchups": [],
+  "note": "Main win rates use a fixed candidate-independent suite; candidate matchups are separate diagnostics."
+}

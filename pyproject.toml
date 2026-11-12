@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=69,<81"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "twenty-five-rl"
+version = "0.3.2"
+description = "Rules-first Twenty-Five engine with an experimental RL toolkit"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.26,<3",
+    "torch>=2.7.1,<2.13",
+    "gymnasium>=1.0,<2",
+    "pettingzoo>=1.24,<2",
+]
+
+[project.optional-dependencies]
+tracking = ["tensorboard>=2.18,<3"]
+dev = ["pytest>=8,<9", "ruff>=0.9,<1", "mypy>=1.13,<2"]
+
+[project.scripts]
+tf-gridworld-mc = "twenty_five.training.gridworld_mc:main"
+tf-tabular = "twenty_five.training.tabular_twentyfive:main"
+tf-dqn = "twenty_five.training.dqn:main"
+tf-policy-gradient = "twenty_five.training.policy_gradient:main"
+tf-ppo = "twenty_five.training.ppo:main"
+tf-evaluate = "twenty_five.training.evaluate:main"
+tf-sandbox = "twenty_five.training.sandbox:main"
+tf-play = "twenty_five.training.play:main"
+tf-benchmark = "twenty_five.training.benchmark:main"
+tf-run = "twenty_five.training.run:main"
+tf-research = "twenty_five.training.research:main"
+tf-gui = "twenty_five.gui:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 140
+target-version = "py310"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

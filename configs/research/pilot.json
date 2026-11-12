@@ -1,0 +1,83 @@
+{
+  "output_root": "artifacts/research/pilot-v2",
+  "seeds": [
+    11,
+    22,
+    33
+  ],
+  "common": {
+    "players": 4,
+    "reward": "terminal",
+    "opponent_names": [
+      "random",
+      "greedy",
+      "conservative",
+      "counting"
+    ],
+    "gamma": 1.0
+  },
+  "evaluation": {
+    "games": 256,
+    "matchup_games": 64,
+    "baselines": [
+      "random",
+      "greedy",
+      "conservative",
+      "counting"
+    ]
+  },
+  "experiments": [
+    {
+      "name": "mc",
+      "algorithm": "mc",
+      "train": {
+        "episodes": 2000
+      }
+    },
+    {
+      "name": "sarsa",
+      "algorithm": "sarsa",
+      "train": {
+        "episodes": 2000
+      }
+    },
+    {
+      "name": "q_learning",
+      "algorithm": "q_learning",
+      "train": {
+        "episodes": 2000
+      }
+    },
+    {
+      "name": "expected_sarsa",
+      "algorithm": "expected_sarsa",
+      "train": {
+        "episodes": 2000
+      }
+    },
+    {
+      "name": "dqn",
+      "algorithm": "dqn",
+      "train": {
+        "episodes": 2000,
+        "device": "auto",
+        "num_envs": 4,
+        "eval_games": 64,
+        "eval_interval": 500
+      }
+    },
+    {
+      "name": "ppo",
+      "algorithm": "ppo",
+      "train": {
+        "updates": 100,
+        "device": "auto",
+        "num_envs": 4,
+        "horizon": 64,
+        "eval_games": 64,
+        "eval_interval": 25,
+        "self_play": false
+      }
+    }
+  ]
+}

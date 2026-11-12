@@ -1,0 +1,29 @@
+{
+  "algorithm": "ppo",
+  "train": {
+    "updates": 1000,
+    "seed": 0,
+    "output": "artifacts/checkpoints/ppo_curriculum_v2.pt",
+    "players": 4,
+    "num_envs": 16,
+    "horizon": 128,
+    "device": "auto",
+    "batch_size": 1024,
+    "opponent_names": [
+      "random",
+      "greedy",
+      "conservative",
+      "counting"
+    ],
+    "reward": "terminal",
+    "eval_interval": 50,
+    "eval_games": 128,
+    "eval_opponent": "counting",
+    "checkpoint_interval": 100,
+    "keep_snapshots": 5,
+    "tensorboard_dir": "artifacts/tensorboard/ppo_curriculum_v2",
+    "gamma": 1.0,
+    "entropy_coefficient": 0.0
+  },
+  "description": "Fixed opponent mixture; no adaptive or staged curriculum."
+}

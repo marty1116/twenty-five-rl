@@ -1,0 +1,8916 @@
+{
+  "requested_games_per_policy": 1000,
+  "benchmark_suite": "baseline",
+  "benchmark_opponents": [
+    "random",
+    "greedy",
+    "conservative",
+    "counting"
+  ],
+  "actual_games_per_policy": {
+    "random": 1000,
+    "lowest": 1000,
+    "greedy": 1000,
+    "conservative": 1000,
+    "counting": 1000,
+    "rules3_final": 1000,
+    "rules3_best": 1000
+  },
+  "held_out_evaluation_seeds": [
+    15001,
+    15002,
+    15003,
+    15004,
+    15005,
+    1015004,
+    1015005,
+    1015006,
+    1015007,
+    1015008,
+    2015007,
+    2015008,
+    2015009,
+    2015010,
+    2015011,
+    3015010,
+    3015011,
+    3015012,
+    3015013,
+    3015014,
+    4015013,
+    4015014,
+    4015015,
+    4015016,
+    4015017,
+    5015016,
+    5015017,
+    5015018,
+    5015019,
+    5015020,
+    6015019,
+    6015020,
+    6015021,
+    6015022,
+    6015023,
+    7015022,
+    7015023,
+    7015024,
+    7015025,
+    7015026,
+    8015025,
+    8015026,
+    8015027,
+    8015028,
+    8015029,
+    9015028,
+    9015029,
+    9015030,
+    9015031,
+    9015032,
+    10015031,
+    10015032,
+    10015033,
+    10015034,
+    10015035,
+    11015034,
+    11015035,
+    11015036,
+    11015037,
+    11015038,
+    12015037,
+    12015038,
+    12015039
+  ],
+  "two_player_evaluation_seeds": [
+    15001,
+    15002,
+    15003,
+    15004,
+    15005,
+    1015004,
+    1015005,
+    1015006,
+    1015007,
+    1015008,
+    2015007,
+    2015008,
+    2015009,
+    2015010,
+    2015011,
+    3015010,
+    3015011,
+    3015012,
+    3015013,
+    3015014,
+    4015013,
+    4015014,
+    4015015,
+    4015016,
+    4015017,
+    5015016,
+    5015017,
+    5015018,
+    5015019,
+    5015020,
+    6015019,
+    6015020,
+    6015021,
+    6015022,
+    6015023,
+    7015022,
+    7015023,
+    7015024,
+    7015025,
+    7015026,
+    8015025,
+    8015026,
+    8015027,
+    8015028,
+    8015029,
+    9015028,
+    9015029,
+    9015030,
+    9015031,
+    9015032,
+    10015031,
+    10015032,
+    10015033,
+    10015034,
+    10015035,
+    11015034,
+    11015035,
+    11015036,
+    11015037,
+    11015038,
+    12015037,
+    12015038,
+    12015039,
+    12015040,
+    12015041,
+    13015040,
+    13015041,
+    13015042,
+    13015043,
+    13015044,
+    14015043,
+    14015044,
+    14015045,
+    14015046,
+    14015047,
+    15015046,
+    15015047,
+    15015048,
+    15015049,
+    15015050,
+    16015049,
+    16015050,
+    16015051,
+    16015052,
+    16015053,
+    17015052,
+    17015053,
+    17015054,
+    17015055,
+    17015056,
+    18015055,
+    18015056,
+    18015057,
+    18015058,
+    18015059,
+    19015058,
+    19015059,
+    19015060,
+    19015061,
+    19015062,
+    20015061,
+    20015062,
+    20015063,
+    20015064,
+    20015065,
+    21015064,
+    21015065,
+    21015066,
+    21015067,
+    21015068,
+    22015067,
+    22015068,
+    22015069,
+    22015070,
+    22015071,
+    23015070,
+    23015071,
+    23015072,
+    23015073,
+    23015074,
+    24015073,
+    24015074,
+    24015075,
+    24015076,
+    24015077,
+    25015076,
+    25015077,
+    25015078,
+    25015079,
+    25015080,
+    26015079,
+    26015080,
+    26015081,
+    26015082,
+    26015083,
+    27015082,
+    27015083,
+    27015084,
+    27015085,
+    27015086,
+    28015085,
+    28015086,
+    28015087,
+    28015088,
+    28015089,
+    29015088,
+    29015089,
+    29015090,
+    29015091,
+    29015092,
+    30015091,
+    30015092,
+    30015093,
+    30015094,
+    30015095,
+    31015094,
+    31015095,
+    31015096,
+    31015097,
+    31015098,
+    32015097,
+    32015098,
+    32015099,
+    32015100,
+    32015101,
+    33015100,
+    33015101,
+    33015102,
+    33015103,
+    33015104,
+    34015103,
+    34015104,
+    34015105,
+    34015106,
+    34015107,
+    35015106,
+    35015107,
+    35015108,
+    35015109,
+    35015110,
+    36015109,
+    36015110,
+    36015111,
+    36015112,
+    36015113,
+    37015112,
+    37015113,
+    37015114,
+    37015115,
+    37015116,
+    38015115,
+    38015116,
+    38015117,
+    38015118,
+    38015119,
+    39015118,
+    39015119,
+    39015120,
+    39015121,
+    39015122,
+    40015121,
+    40015122,
+    40015123,
+    40015124,
+    40015125,
+    41015124,
+    41015125,
+    41015126,
+    41015127,
+    41015128,
+    42015127,
+    42015128,
+    42015129,
+    42015130,
+    42015131,
+    43015130,
+    43015131,
+    43015132,
+    43015133,
+    43015134,
+    44015133,
+    44015134,
+    44015135,
+    44015136,
+    44015137,
+    45015136,
+    45015137,
+    45015138,
+    45015139,
+    45015140,
+    46015139,
+    46015140,
+    46015141,
+    46015142,
+    46015143,
+    47015142,
+    47015143,
+    47015144,
+    47015145,
+    47015146,
+    48015145,
+    48015146,
+    48015147,
+    48015148,
+    48015149,
+    49015148,
+    49015149,
+    49015150,
+    49015151,
+    49015152
+  ],
+  "duplicate_deals": true,
+  "seat_rotation": true,
+  "dealer_rotation": true,
+  "confidence_interval": "cluster bootstrap over deal seeds",
+  "rows": [
+    {
+      "policy": "random",
+      "total_games": 1000,
+      "wins": 183,
+      "win_rate": 0.183,
+      "ci95_low": 0.161,
+      "ci95_high": 0.207,
+      "wilson_ci95_low": 0.1602624460409235,
+      "wilson_ci95_high": 0.20816380766284814,
+      "average_final_score": 11.815,
+      "average_score_differential": -11.315,
+      "average_tricks_per_round": 0.9303333333333333,
+      "average_rounds_per_match": 2.532,
+      "win_rate_by_seat": {
+        "0": 0.17857142857142858,
+        "1": 0.19047619047619047,
+        "2": 0.1774193548387097,
+        "3": 0.18548387096774194
+      },
+      "win_rate_by_dealer": {
+        "0": 0.172,
+        "1": 0.192,
+        "2": 0.176,
+        "3": 0.192
+      },
+      "win_rate_by_player_count": {
+        "4": 0.183
+      },
+      "average_trick_share_by_trump_suit": {
+        "0": 0.20581597222222223,
+        "2": 0.2182247403210576,
+        "3": 0.20025025025025026,
+        "1": 0.20205479452054795
+      },
+      "two_player_win_rate_against": {
+        "random": null,
+        "lowest": 0.652,
+        "greedy": 0.374,
+        "conservative": 0.36,
+        "counting": 0.364,
+        "rules3_final": 0.402,
+        "rules3_best": 0.41
+      },
+      "multiplayer_win_rate_against_homogeneous_table": {
+        "random": null,
+        "lowest": 0.53,
+        "greedy": 0.18,
+        "conservative": 0.09,
+        "counting": 0.17,
+        "rules3_final": 0.2,
+        "rules3_best": 0.18
+      },
+      "rob_opportunities": 264,
+      "rob_discard_choices": [
+        {
+          "card": 46,
+          "estimated_value": 5.5
+        },
+        {
+          "card": 43,
+          "estimated_value": 14.5
+        },
+        {
+          "card": 46,
+          "estimated_value": 5.5
+        },
+        {
+          "card": 43,
+          "estimated_value": 14.5
+        },
+        {
+          "card": 42,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 42,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 36,
+          "estimated_value": 20.000000000000007
+        },
+        {
+          "card": 42,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 42,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 21,
+          "estimated_value": 15.0
+        },
+        {
+          "card": 36,
+          "estimated_value": 20.000000000000007
+        },
+        {
+          "card": 42,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 42,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 42,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 42,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 21,
+          "estimated_value": 15.0
+        },
+        {
+          "card": 19,
+          "estimated_value": 20.5
+        },
+        {
+          "card": 19,
+          "estimated_value": 20.5
+        },
+        {
+          "card": 19,
+          "estimated_value": 20.5
+        },
+        {
+          "card": 19,
+          "estimated_value": 20.5
+        },
+        {
+          "card": 39,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 14,
+          "estimated_value": 8.000000000000002
+        },
+        {
+          "card": 39,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 14,
+          "estimated_value": 8.000000000000002
+        },
+        {
+          "card": 22,
+          "estimated_value": 29.5
+        },
+        {
+          "card": 22,
+          "estimated_value": 29.5
+        },
+        {
+          "card": 22,
+          "estimated_value": 29.5
+        },
+        {
+          "card": 22,
+          "estimated_value": 29.5
+        },
+        {
+          "card": 16,
+          "estimated_value": 14.5
+        },
+        {
+          "card": 2,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 16,
+          "estimated_value": 14.5
+        },
+        {
+          "card": 20,
+          "estimated_value": 23.0
+        },
+        {
+          "card": 2,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 16,
+          "estimated_value": 14.5
+        },
+        {
+          "card": 20,
+          "estimated_value": 23.0
+        },
+        {
+          "card": 16,
+          "estimated_value": 14.5
+        },
+        {
+          "card": 23,
+          "estimated_value": 32.00000000000001
+        },
+        {
+          "card": 4,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 4,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 23,
+          "estimated_value": 32.00000000000001
+        },
+        {
+          "card": 4,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 23,
+          "estimated_value": 32.00000000000001
+        },
+        {
+          "card": 4,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 23,
+          "estimated_value": 32.00000000000001
+        },
+        {
+          "card": 17,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 26,
+          "estimated_value": 30.5
+        },
+        {
+          "card": 26,
+          "estimated_value": 30.5
+        },
+        {
+          "card": 26,
+          "estimated_value": 30.5
+        },
+        {
+          "card": 17,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 26,
+          "estimated_value": 30.5
+        },
+        {
+          "card": 39,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 39,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 39,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 39,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 29,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 15,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 29,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 47,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 29,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 15,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 29,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 47,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 1,
+          "estimated_value": 12.500000000000002
+        },
+        {
+          "card": 7,
+          "estimated_value": 23.0
+        },
+        {
+          "card": 1,
+          "estimated_value": 12.500000000000002
+        },
+        {
+          "card": 11,
+          "estimated_value": 34.5
+        },
+        {
+          "card": 1,
+          "estimated_value": 12.500000000000002
+        },
+        {
+          "card": 7,
+          "estimated_value": 23.0
+        },
+        {
+          "card": 1,
+          "estimated_value": 12.500000000000002
+        },
+        {
+          "card": 11,
+          "estimated_value": 34.5
+        },
+        {
+          "card": 49,
+          "estimated_value": 20.000000000000007
+        },
+        {
+          "card": 40,
+          "estimated_value": 10.0
+        },
+        {
+          "card": 49,
+          "estimated_value": 20.000000000000007
+        },
+        {
+          "card": 40,
+          "estimated_value": 10.0
+        },
+        {
+          "card": 40,
+          "estimated_value": 10.0
+        },
+        {
+          "card": 49,
+          "estimated_value": 20.000000000000007
+        },
+        {
+          "card": 49,
+          "estimated_value": 20.000000000000007
+        },
+        {
+          "card": 40,
+          "estimated_value": 10.0
+        },
+        {
+          "card": 11,
+          "estimated_value": 22.5
+        },
+        {
+          "card": 11,
+          "estimated_value": 22.5
+        },
+        {
+          "card": 11,
+          "estimated_value": 22.5
+        },
+        {
+          "card": 11,
+          "estimated_value": 22.5
+        },
+        {
+          "card": 33,
+          "estimated_value": 7.0
+        },
+        {
+          "card": 33,
+          "estimated_value": 7.0
+        },
+        {
+          "card": 10,
+          "estimated_value": 20.000000000000007
+        },
+        {
+          "card": 33,
+          "estimated_value": 7.0
+        },
+        {
+          "card": 33,
+          "estimated_value": 7.0
+        },
+        {
+          "card": 10,
+          "estimated_value": 20.000000000000007
+        },
+        {
+          "card": 17,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 0,
+          "estimated_value": 5.5
+        },
+        {
+          "card": 17,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 17,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 0,
+          "estimated_value": 5.5
+        },
+        {
+          "card": 17,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 37,
+          "estimated_value": 22.5
+        },
+        {
+          "card": 4,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 37,
+          "estimated_value": 22.5
+        },
+        {
+          "card": 4,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 37,
+          "estimated_value": 22.5
+        },
+        {
+          "card": 4,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 4,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 37,
+          "estimated_value": 22.5
+        },
+        {
+          "card": 17,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 17,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 32,
+          "estimated_value": -2.4999999999999982
+        },
+        {
+          "card": 32,
+          "estimated_value": -2.4999999999999982
+        },
+        {
+          "card": 32,
+          "estimated_value": -2.4999999999999982
+        },
+        {
+          "card": 32,
+          "estimated_value": -2.4999999999999982
+        },
+        {
+          "card": 16,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 16,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 16,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 16,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 14,
+          "estimated_value": 14.0
+        },
+        {
+          "card": 17,
+          "estimated_value": 23.0
+        },
+        {
+          "card": 14,
+          "estimated_value": 14.0
+        },
+        {
+          "card": 17,
+          "estimated_value": 23.0
+        },
+        {
+          "card": 2,
+          "estimated_value": 10.500000000000002
+        },
+        {
+          "card": 47,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 2,
+          "estimated_value": 10.500000000000002
+        },
+        {
+          "card": 47,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 37,
+          "estimated_value": 40.5
+        },
+        {
+          "card": 37,
+          "estimated_value": 40.5
+        },
+        {
+          "card": 37,
+          "estimated_value": 40.5
+        },
+        {
+          "card": 37,
+          "estimated_value": 40.5
+        },
+        {
+          "card": 18,
+          "estimated_value": 18.0
+        },
+        {
+          "card": 18,
+          "estimated_value": 18.0
+        },
+        {
+          "card": 10,
+          "estimated_value": 20.000000000000007
+        },
+        {
+          "card": 10,
+          "estimated_value": 20.000000000000007
+        },
+        {
+          "card": 10,
+          "estimated_value": 20.000000000000007
+        },
+        {
+          "card": 10,
+          "estimated_value": 20.000000000000007
+        },
+        {
+          "card": 1,
+          "estimated_value": 12.500000000000002
+        },
+        {
+          "card": 9,
+          "estimated_value": 34.0
+        },
+        {
+          "card": 1,
+          "estimated_value": 12.500000000000002
+        },
+        {
+          "card": 9,
+          "estimated_value": 34.0
+        },
+        {
+          "card": 18,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 30,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 30,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 30,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 18,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 30,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 26,
+          "estimated_value": 33.5
+        },
+        {
+          "card": 26,
+          "estimated_value": 33.5
+        },
+        {
+          "card": 17,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 23,
+          "estimated_value": 32.00000000000001
+        },
+        {
+          "card": 23,
+          "estimated_value": 32.00000000000001
+        },
+        {
+          "card": 17,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 23,
+          "estimated_value": 32.00000000000001
+        },
+        {
+          "card": 17,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 23,
+          "estimated_value": 32.00000000000001
+        },
+        {
+          "card": 17,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 39,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 39,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 39,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 39,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 43,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 51,
+          "estimated_value": 27.0
+        },
+        {
+          "card": 43,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 51,
+          "estimated_value": 27.0
+        },
+        {
+          "card": 43,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 5,
+          "estimated_value": 18.0
+        },
+        {
+          "card": 43,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 50,
+          "estimated_value": 22.5
+        },
+        {
+          "card": 43,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 5,
+          "estimated_value": 18.0
+        },
+        {
+          "card": 50,
+          "estimated_value": 22.5
+        },
+        {
+          "card": 43,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 30,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 28,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 30,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 30,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 28,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 30,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 45,
+          "estimated_value": 8.000000000000002
+        },
+        {
+          "card": 13,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 13,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 45,
+          "estimated_value": 8.000000000000002
+        },
+        {
+          "card": 13,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 45,
+          "estimated_value": 8.000000000000002
+        },
+        {
+          "card": 13,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 45,
+          "estimated_value": 8.000000000000002
+        },
+        {
+          "card": 35,
+          "estimated_value": 29.5
+        },
+        {
+          "card": 35,
+          "estimated_value": 29.5
+        },
+        {
+          "card": 35,
+          "estimated_value": 29.5
+        },
+        {
+          "card": 35,
+          "estimated_value": 29.5
+        },
+        {
+          "card": 17,
+          "estimated_value": 23.0
+        },
+        {
+          "card": 25,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 17,
+          "estimated_value": 23.0
+        },
+        {
+          "card": 25,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 30,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 47,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 51,
+          "estimated_value": 27.0
+        },
+        {
+          "card": 30,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 47,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 30,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 51,
+          "estimated_value": 27.0
+        },
+        {
+          "card": 30,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 40,
+          "estimated_value": 10.0
+        },
+        {
+          "card": 0,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 40,
+          "estimated_value": 10.0
+        },
+        {
+          "card": 0,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 45,
+          "estimated_value": 8.000000000000002
+        },
+        {
+          "card": 45,
+          "estimated_value": 8.000000000000002
+        },
+        {
+          "card": 45,
+          "estimated_value": 8.000000000000002
+        },
+        {
+          "card": 45,
+          "estimated_value": 8.000000000000002
+        },
+        {
+          "card": 10,
+          "estimated_value": 20.000000000000007
+        },
+        {
+          "card": 20,
+          "estimated_value": 24.5
+        },
+        {
+          "card": 20,
+          "estimated_value": 24.5
+        },
+        {
+          "card": 10,
+          "estimated_value": 20.000000000000007
+        },
+        {
+          "card": 20,
+          "estimated_value": 24.5
+        },
+        {
+          "card": 10,
+          "estimated_value": 20.000000000000007
+        },
+        {
+          "card": 10,
+          "estimated_value": 20.000000000000007
+        },
+        {
+          "card": 20,
+          "estimated_value": 24.5
+        },
+        {
+          "card": 8,
+          "estimated_value": 33.0
+        },
+        {
+          "card": 3,
+          "estimated_value": 17.5
+        },
+        {
+          "card": 8,
+          "estimated_value": 33.0
+        },
+        {
+          "card": 3,
+          "estimated_value": 17.5
+        },
+        {
+          "card": 1,
+          "estimated_value": 14.0
+        },
+        {
+          "card": 1,
+          "estimated_value": 14.0
+        },
+        {
+          "card": 51,
+          "estimated_value": 27.0
+        },
+        {
+          "card": 51,
+          "estimated_value": 27.0
+        },
+        {
+          "card": 51,
+          "estimated_value": 27.0
+        },
+        {
+          "card": 51,
+          "estimated_value": 27.0
+        },
+        {
+          "card": 23,
+          "estimated_value": 20.000000000000007
+        },
+        {
+          "card": 39,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 28,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 39,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 39,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 23,
+          "estimated_value": 20.000000000000007
+        },
+        {
+          "card": 39,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 28,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 8,
+          "estimated_value": 15.0
+        },
+        {
+          "card": 15,
+          "estimated_value": 10.500000000000002
+        },
+        {
+          "card": 15,
+          "estimated_value": 10.500000000000002
+        },
+        {
+          "card": 8,
+          "estimated_value": 15.0
+        },
+        {
+          "card": 15,
+          "estimated_value": 10.500000000000002
+        },
+        {
+          "card": 8,
+          "estimated_value": 15.0
+        },
+        {
+          "card": 8,
+          "estimated_value": 15.0
+        },
+        {
+          "card": 15,
+          "estimated_value": 10.500000000000002
+        },
+        {
+          "card": 33,
+          "estimated_value": 5.5
+        },
+        {
+          "card": 33,
+          "estimated_value": 5.5
+        },
+        {
+          "card": 21,
+          "estimated_value": 27.0
+        },
+        {
+          "card": 33,
+          "estimated_value": 5.5
+        },
+        {
+          "card": 33,
+          "estimated_value": 5.5
+        },
+        {
+          "card": 21,
+          "estimated_value": 27.0
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 0,
+          "estimated_value": 5.5
+        },
+        {
+          "card": 4,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 26,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 0,
+          "estimated_value": 5.5
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 4,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 26,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 40,
+          "estimated_value": 22.0
+        },
+        {
+          "card": 40,
+          "estimated_value": 22.0
+        },
+        {
+          "card": 40,
+          "estimated_value": 22.0
+        },
+        {
+          "card": 40,
+          "estimated_value": 22.0
+        },
+        {
+          "card": 17,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 20,
+          "estimated_value": 29.0
+        },
+        {
+          "card": 20,
+          "estimated_value": 29.0
+        },
+        {
+          "card": 17,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 20,
+          "estimated_value": 29.0
+        },
+        {
+          "card": 20,
+          "estimated_value": 29.0
+        },
+        {
+          "card": 43,
+          "estimated_value": 14.5
+        },
+        {
+          "card": 43,
+          "estimated_value": 14.5
+        }
+      ],
+      "matches_with_rob": 248,
+      "win_rate_in_matches_with_rob": 0.3709677419354839,
+      "invalid_action_count": 0,
+      "illegal_mask_action_disagreement_count": 0,
+      "mean_episodic_return": -0.08933333333333332,
+      "return_variance": 0.26579733333333333,
+      "mean_game_length": 44.218,
+      "inference_latency_ms": 0.001350028697299532,
+      "bradley_terry_rating": 1455.6810180163016,
+      "training_steps": null,
+      "training_wall_clock_seconds": null,
+      "model_parameter_count": 0,
+      "checkpoint_identifier": "baseline",
+      "training_seed": null,
+      "evaluation_seeds": [
+        15001,
+        15002,
+        15003,
+        15004,
+        15005,
+        1015004,
+        1015005,
+        1015006,
+        1015007,
+        1015008,
+        2015007,
+        2015008,
+        2015009,
+        2015010,
+        2015011,
+        3015010,
+        3015011,
+        3015012,
+        3015013,
+        3015014,
+        4015013,
+        4015014,
+        4015015,
+        4015016,
+        4015017,
+        5015016,
+        5015017,
+        5015018,
+        5015019,
+        5015020,
+        6015019,
+        6015020,
+        6015021,
+        6015022,
+        6015023,
+        7015022,
+        7015023,
+        7015024,
+        7015025,
+        7015026,
+        8015025,
+        8015026,
+        8015027,
+        8015028,
+        8015029,
+        9015028,
+        9015029,
+        9015030,
+        9015031,
+        9015032,
+        10015031,
+        10015032,
+        10015033,
+        10015034,
+        10015035,
+        11015034,
+        11015035,
+        11015036,
+        11015037,
+        11015038,
+        12015037,
+        12015038,
+        12015039
+      ]
+    },
+    {
+      "policy": "lowest",
+      "total_games": 1000,
+      "wins": 124,
+      "win_rate": 0.124,
+      "ci95_low": 0.098,
+      "ci95_high": 0.15079365079365079,
+      "wilson_ci95_low": 0.10499965005666721,
+      "wilson_ci95_high": 0.14587817768029848,
+      "average_final_score": 10.18,
+      "average_score_differential": -13.76,
+      "average_tricks_per_round": 0.7745,
+      "average_rounds_per_match": 2.543,
+      "win_rate_by_seat": {
+        "0": 0.13095238095238096,
+        "1": 0.11904761904761904,
+        "2": 0.12903225806451613,
+        "3": 0.11693548387096774
+      },
+      "win_rate_by_dealer": {
+        "0": 0.112,
+        "1": 0.132,
+        "2": 0.116,
+        "3": 0.136
+      },
+      "win_rate_by_player_count": {
+        "4": 0.124
+      },
+      "average_trick_share_by_trump_suit": {
+        "0": 0.15436864153201676,
+        "2": 0.17661971830985917,
+        "3": 0.15776458951533137,
+        "1": 0.17270210409745293
+      },
+      "two_player_win_rate_against": {
+        "random": 0.348,
+        "lowest": null,
+        "greedy": 0.174,
+        "conservative": 0.278,
+        "counting": 0.288,
+        "rules3_final": 0.246,
+        "rules3_best": 0.27
+      },
+      "multiplayer_win_rate_against_homogeneous_table": {
+        "random": 0.21,
+        "lowest": null,
+        "greedy": 0.13,
+        "conservative": 0.16,
+        "counting": 0.09,
+        "rules3_final": 0.13,
+        "rules3_best": 0.12
+      },
+      "rob_opportunities": 270,
+      "rob_discard_choices": [
+        {
+          "card": 46,
+          "estimated_value": 5.5
+        },
+        {
+          "card": 46,
+          "estimated_value": 5.5
+        },
+        {
+          "card": 46,
+          "estimated_value": 5.5
+        },
+        {
+          "card": 46,
+          "estimated_value": 5.5
+        },
+        {
+          "card": 5,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 15,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 4,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 5,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 15,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 4,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 4,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 5,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 15,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 5,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 15,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 4,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 1,
+          "estimated_value": -2.4999999999999982
+        },
+        {
+          "card": 1,
+          "estimated_value": -2.4999999999999982
+        },
+        {
+          "card": 1,
+          "estimated_value": -2.4999999999999982
+        },
+        {
+          "card": 1,
+          "estimated_value": -2.4999999999999982
+        },
+        {
+          "card": 14,
+          "estimated_value": 8.000000000000002
+        },
+        {
+          "card": 14,
+          "estimated_value": 8.000000000000002
+        },
+        {
+          "card": 14,
+          "estimated_value": 8.000000000000002
+        },
+        {
+          "card": 14,
+          "estimated_value": 8.000000000000002
+        },
+        {
+          "card": 25,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 25,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 25,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 25,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 29,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 2,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 29,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 2,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 2,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 29,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 2,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 29,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 21,
+          "estimated_value": 25.5
+        },
+        {
+          "card": 4,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 32,
+          "estimated_value": -2.4999999999999982
+        },
+        {
+          "card": 32,
+          "estimated_value": -2.4999999999999982
+        },
+        {
+          "card": 21,
+          "estimated_value": 25.5
+        },
+        {
+          "card": 32,
+          "estimated_value": -2.4999999999999982
+        },
+        {
+          "card": 21,
+          "estimated_value": 25.5
+        },
+        {
+          "card": 4,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 32,
+          "estimated_value": -2.4999999999999982
+        },
+        {
+          "card": 21,
+          "estimated_value": 25.5
+        },
+        {
+          "card": 29,
+          "estimated_value": 20.0
+        },
+        {
+          "card": 29,
+          "estimated_value": 20.0
+        },
+        {
+          "card": 29,
+          "estimated_value": 20.0
+        },
+        {
+          "card": 29,
+          "estimated_value": 20.0
+        },
+        {
+          "card": 25,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 25,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 25,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 25,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 25,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 25,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 25,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 25,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 28,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 29,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 47,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 29,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 47,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 29,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 47,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 28,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 29,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 47,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 27,
+          "estimated_value": 10.0
+        },
+        {
+          "card": 50,
+          "estimated_value": 22.5
+        },
+        {
+          "card": 27,
+          "estimated_value": 10.0
+        },
+        {
+          "card": 50,
+          "estimated_value": 22.5
+        },
+        {
+          "card": 27,
+          "estimated_value": 10.0
+        },
+        {
+          "card": 50,
+          "estimated_value": 22.5
+        },
+        {
+          "card": 27,
+          "estimated_value": 10.0
+        },
+        {
+          "card": 50,
+          "estimated_value": 22.5
+        },
+        {
+          "card": 31,
+          "estimated_value": 10.500000000000002
+        },
+        {
+          "card": 49,
+          "estimated_value": 20.000000000000007
+        },
+        {
+          "card": 16,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 49,
+          "estimated_value": 20.000000000000007
+        },
+        {
+          "card": 16,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 16,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 31,
+          "estimated_value": 10.500000000000002
+        },
+        {
+          "card": 49,
+          "estimated_value": 20.000000000000007
+        },
+        {
+          "card": 49,
+          "estimated_value": 20.000000000000007
+        },
+        {
+          "card": 16,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 47,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 47,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 47,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 47,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 3,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 3,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 3,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 3,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 17,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 17,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 17,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 17,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 22,
+          "estimated_value": 17.500000000000004
+        },
+        {
+          "card": 22,
+          "estimated_value": 17.500000000000004
+        },
+        {
+          "card": 28,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 22,
+          "estimated_value": 17.500000000000004
+        },
+        {
+          "card": 28,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 22,
+          "estimated_value": 17.500000000000004
+        },
+        {
+          "card": 32,
+          "estimated_value": -2.4999999999999982
+        },
+        {
+          "card": 32,
+          "estimated_value": -2.4999999999999982
+        },
+        {
+          "card": 32,
+          "estimated_value": -2.4999999999999982
+        },
+        {
+          "card": 32,
+          "estimated_value": -2.4999999999999982
+        },
+        {
+          "card": 31,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 31,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 31,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 31,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 14,
+          "estimated_value": 14.0
+        },
+        {
+          "card": 14,
+          "estimated_value": 14.0
+        },
+        {
+          "card": 4,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 14,
+          "estimated_value": 14.0
+        },
+        {
+          "card": 14,
+          "estimated_value": 14.0
+        },
+        {
+          "card": 4,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 47,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 47,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 47,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 47,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 27,
+          "estimated_value": 25.0
+        },
+        {
+          "card": 27,
+          "estimated_value": 25.0
+        },
+        {
+          "card": 27,
+          "estimated_value": 25.0
+        },
+        {
+          "card": 27,
+          "estimated_value": 25.0
+        },
+        {
+          "card": 32,
+          "estimated_value": -2.4999999999999982
+        },
+        {
+          "card": 32,
+          "estimated_value": -2.4999999999999982
+        },
+        {
+          "card": 10,
+          "estimated_value": 20.000000000000007
+        },
+        {
+          "card": 10,
+          "estimated_value": 20.000000000000007
+        },
+        {
+          "card": 10,
+          "estimated_value": 20.000000000000007
+        },
+        {
+          "card": 10,
+          "estimated_value": 20.000000000000007
+        },
+        {
+          "card": 1,
+          "estimated_value": 12.500000000000002
+        },
+        {
+          "card": 1,
+          "estimated_value": 12.500000000000002
+        },
+        {
+          "card": 1,
+          "estimated_value": 12.500000000000002
+        },
+        {
+          "card": 1,
+          "estimated_value": 12.500000000000002
+        },
+        {
+          "card": 18,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 30,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 18,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 30,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 30,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 18,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 30,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 18,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 33,
+          "estimated_value": 11.5
+        },
+        {
+          "card": 33,
+          "estimated_value": 11.5
+        },
+        {
+          "card": 33,
+          "estimated_value": 11.5
+        },
+        {
+          "card": 33,
+          "estimated_value": 11.5
+        },
+        {
+          "card": 17,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 8,
+          "estimated_value": 15.0
+        },
+        {
+          "card": 8,
+          "estimated_value": 15.0
+        },
+        {
+          "card": 17,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 8,
+          "estimated_value": 15.0
+        },
+        {
+          "card": 17,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 8,
+          "estimated_value": 15.0
+        },
+        {
+          "card": 17,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 39,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 13,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 39,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 39,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 13,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 39,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 43,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 43,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 30,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 5,
+          "estimated_value": 18.0
+        },
+        {
+          "card": 30,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 5,
+          "estimated_value": 18.0
+        },
+        {
+          "card": 30,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 5,
+          "estimated_value": 18.0
+        },
+        {
+          "card": 5,
+          "estimated_value": 18.0
+        },
+        {
+          "card": 30,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 28,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 28,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 28,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 28,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 45,
+          "estimated_value": 8.000000000000002
+        },
+        {
+          "card": 13,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 13,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 45,
+          "estimated_value": 8.000000000000002
+        },
+        {
+          "card": 13,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 45,
+          "estimated_value": 8.000000000000002
+        },
+        {
+          "card": 13,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 45,
+          "estimated_value": 8.000000000000002
+        },
+        {
+          "card": 13,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 13,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 13,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 13,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 25,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 25,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 25,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 25,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 34,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 34,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 34,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 34,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 0,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 0,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 0,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 0,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 30,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 43,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 43,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 30,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 43,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 30,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 30,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 43,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 16,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 25,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 16,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 16,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 25,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 16,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 1,
+          "estimated_value": 14.0
+        },
+        {
+          "card": 1,
+          "estimated_value": 14.0
+        },
+        {
+          "card": 16,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 16,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 16,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 16,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 28,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 28,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 28,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 28,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 26,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 15,
+          "estimated_value": 10.500000000000002
+        },
+        {
+          "card": 15,
+          "estimated_value": 10.500000000000002
+        },
+        {
+          "card": 26,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 15,
+          "estimated_value": 10.500000000000002
+        },
+        {
+          "card": 26,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 26,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 15,
+          "estimated_value": 10.500000000000002
+        },
+        {
+          "card": 15,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 15,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 15,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 15,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 3,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 3,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 3,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 3,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 30,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 46,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 46,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 30,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 30,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 46,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 30,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 46,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 45,
+          "estimated_value": 8.000000000000002
+        },
+        {
+          "card": 45,
+          "estimated_value": 8.000000000000002
+        }
+      ],
+      "matches_with_rob": 252,
+      "win_rate_in_matches_with_rob": 0.23015873015873015,
+      "invalid_action_count": 0,
+      "illegal_mask_action_disagreement_count": 0,
+      "mean_episodic_return": -0.16799999999999998,
+      "return_variance": 0.19310933333333333,
+      "mean_game_length": 43.96,
+      "inference_latency_ms": 0.01745244868888386,
+      "bradley_terry_rating": 1348.5373026826805,
+      "training_steps": null,
+      "training_wall_clock_seconds": null,
+      "model_parameter_count": 0,
+      "checkpoint_identifier": "baseline",
+      "training_seed": null,
+      "evaluation_seeds": [
+        15001,
+        15002,
+        15003,
+        15004,
+        15005,
+        1015004,
+        1015005,
+        1015006,
+        1015007,
+        1015008,
+        2015007,
+        2015008,
+        2015009,
+        2015010,
+        2015011,
+        3015010,
+        3015011,
+        3015012,
+        3015013,
+        3015014,
+        4015013,
+        4015014,
+        4015015,
+        4015016,
+        4015017,
+        5015016,
+        5015017,
+        5015018,
+        5015019,
+        5015020,
+        6015019,
+        6015020,
+        6015021,
+        6015022,
+        6015023,
+        7015022,
+        7015023,
+        7015024,
+        7015025,
+        7015026,
+        8015025,
+        8015026,
+        8015027,
+        8015028,
+        8015029,
+        9015028,
+        9015029,
+        9015030,
+        9015031,
+        9015032,
+        10015031,
+        10015032,
+        10015033,
+        10015034,
+        10015035,
+        11015034,
+        11015035,
+        11015036,
+        11015037,
+        11015038,
+        12015037,
+        12015038,
+        12015039
+      ]
+    },
+    {
+      "policy": "greedy",
+      "total_games": 1000,
+      "wins": 309,
+      "win_rate": 0.309,
+      "ci95_low": 0.28174603174603174,
+      "ci95_high": 0.337,
+      "wilson_ci95_low": 0.2811363607125768,
+      "wilson_ci95_high": 0.3383255145474245,
+      "average_final_score": 14.305,
+      "average_score_differential": -7.235,
+      "average_tricks_per_round": 1.1661666666666668,
+      "average_rounds_per_match": 2.495,
+      "win_rate_by_seat": {
+        "0": 0.3134920634920635,
+        "1": 0.3055555555555556,
+        "2": 0.31048387096774194,
+        "3": 0.3064516129032258
+      },
+      "win_rate_by_dealer": {
+        "0": 0.316,
+        "1": 0.3,
+        "2": 0.316,
+        "3": 0.304
+      },
+      "win_rate_by_player_count": {
+        "4": 0.309
+      },
+      "average_trick_share_by_trump_suit": {
+        "0": 0.29918392969240426,
+        "2": 0.26778252611585945,
+        "3": 0.28549655850540806,
+        "1": 0.28698630136986303
+      },
+      "two_player_win_rate_against": {
+        "random": 0.626,
+        "lowest": 0.826,
+        "greedy": null,
+        "conservative": 0.59,
+        "counting": 0.592,
+        "rules3_final": 0.55,
+        "rules3_best": 0.574
+      },
+      "multiplayer_win_rate_against_homogeneous_table": {
+        "random": 0.33,
+        "lowest": 0.7,
+        "greedy": null,
+        "conservative": 0.21,
+        "counting": 0.25,
+        "rules3_final": 0.33,
+        "rules3_best": 0.33
+      },
+      "rob_opportunities": 270,
+      "rob_discard_choices": [
+        {
+          "card": 46,
+          "estimated_value": 5.5
+        },
+        {
+          "card": 46,
+          "estimated_value": 5.5
+        },
+        {
+          "card": 46,
+          "estimated_value": 5.5
+        },
+        {
+          "card": 46,
+          "estimated_value": 5.5
+        },
+        {
+          "card": 5,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 15,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 4,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 5,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 15,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 4,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 4,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 5,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 15,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 5,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 15,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 4,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 1,
+          "estimated_value": -2.4999999999999982
+        },
+        {
+          "card": 1,
+          "estimated_value": -2.4999999999999982
+        },
+        {
+          "card": 1,
+          "estimated_value": -2.4999999999999982
+        },
+        {
+          "card": 1,
+          "estimated_value": -2.4999999999999982
+        },
+        {
+          "card": 14,
+          "estimated_value": 8.000000000000002
+        },
+        {
+          "card": 14,
+          "estimated_value": 8.000000000000002
+        },
+        {
+          "card": 14,
+          "estimated_value": 8.000000000000002
+        },
+        {
+          "card": 14,
+          "estimated_value": 8.000000000000002
+        },
+        {
+          "card": 25,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 25,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 25,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 25,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 29,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 2,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 29,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 2,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 2,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 29,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 2,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 29,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 21,
+          "estimated_value": 25.5
+        },
+        {
+          "card": 32,
+          "estimated_value": -2.4999999999999982
+        },
+        {
+          "card": 32,
+          "estimated_value": -2.4999999999999982
+        },
+        {
+          "card": 21,
+          "estimated_value": 25.5
+        },
+        {
+          "card": 32,
+          "estimated_value": -2.4999999999999982
+        },
+        {
+          "card": 21,
+          "estimated_value": 25.5
+        },
+        {
+          "card": 32,
+          "estimated_value": -2.4999999999999982
+        },
+        {
+          "card": 21,
+          "estimated_value": 25.5
+        },
+        {
+          "card": 29,
+          "estimated_value": 20.0
+        },
+        {
+          "card": 29,
+          "estimated_value": 20.0
+        },
+        {
+          "card": 29,
+          "estimated_value": 20.0
+        },
+        {
+          "card": 29,
+          "estimated_value": 20.0
+        },
+        {
+          "card": 25,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 25,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 25,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 25,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 25,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 25,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 25,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 25,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 29,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 47,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 29,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 47,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 29,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 47,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 29,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 47,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 27,
+          "estimated_value": 10.0
+        },
+        {
+          "card": 50,
+          "estimated_value": 22.5
+        },
+        {
+          "card": 27,
+          "estimated_value": 10.0
+        },
+        {
+          "card": 50,
+          "estimated_value": 22.5
+        },
+        {
+          "card": 27,
+          "estimated_value": 10.0
+        },
+        {
+          "card": 50,
+          "estimated_value": 22.5
+        },
+        {
+          "card": 27,
+          "estimated_value": 10.0
+        },
+        {
+          "card": 50,
+          "estimated_value": 22.5
+        },
+        {
+          "card": 49,
+          "estimated_value": 20.000000000000007
+        },
+        {
+          "card": 16,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 49,
+          "estimated_value": 20.000000000000007
+        },
+        {
+          "card": 16,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 16,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 49,
+          "estimated_value": 20.000000000000007
+        },
+        {
+          "card": 49,
+          "estimated_value": 20.000000000000007
+        },
+        {
+          "card": 16,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 47,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 47,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 47,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 47,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 3,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 30,
+          "estimated_value": 17.5
+        },
+        {
+          "card": 3,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 30,
+          "estimated_value": 17.5
+        },
+        {
+          "card": 3,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 30,
+          "estimated_value": 17.5
+        },
+        {
+          "card": 3,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 30,
+          "estimated_value": 17.5
+        },
+        {
+          "card": 17,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 0,
+          "estimated_value": 5.5
+        },
+        {
+          "card": 17,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 17,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 0,
+          "estimated_value": 5.5
+        },
+        {
+          "card": 17,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 22,
+          "estimated_value": 17.500000000000004
+        },
+        {
+          "card": 28,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 22,
+          "estimated_value": 17.500000000000004
+        },
+        {
+          "card": 28,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 22,
+          "estimated_value": 17.500000000000004
+        },
+        {
+          "card": 28,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 28,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 22,
+          "estimated_value": 17.500000000000004
+        },
+        {
+          "card": 32,
+          "estimated_value": -2.4999999999999982
+        },
+        {
+          "card": 32,
+          "estimated_value": -2.4999999999999982
+        },
+        {
+          "card": 32,
+          "estimated_value": -2.4999999999999982
+        },
+        {
+          "card": 32,
+          "estimated_value": -2.4999999999999982
+        },
+        {
+          "card": 31,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 31,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 31,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 31,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 14,
+          "estimated_value": 14.0
+        },
+        {
+          "card": 4,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 14,
+          "estimated_value": 14.0
+        },
+        {
+          "card": 14,
+          "estimated_value": 14.0
+        },
+        {
+          "card": 4,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 14,
+          "estimated_value": 14.0
+        },
+        {
+          "card": 47,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 47,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 47,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 47,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 27,
+          "estimated_value": 25.0
+        },
+        {
+          "card": 27,
+          "estimated_value": 25.0
+        },
+        {
+          "card": 27,
+          "estimated_value": 25.0
+        },
+        {
+          "card": 27,
+          "estimated_value": 25.0
+        },
+        {
+          "card": 15,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 15,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 10,
+          "estimated_value": 20.000000000000007
+        },
+        {
+          "card": 10,
+          "estimated_value": 20.000000000000007
+        },
+        {
+          "card": 10,
+          "estimated_value": 20.000000000000007
+        },
+        {
+          "card": 10,
+          "estimated_value": 20.000000000000007
+        },
+        {
+          "card": 1,
+          "estimated_value": 12.500000000000002
+        },
+        {
+          "card": 1,
+          "estimated_value": 12.500000000000002
+        },
+        {
+          "card": 18,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 30,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 18,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 30,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 30,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 18,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 30,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 18,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 33,
+          "estimated_value": 11.5
+        },
+        {
+          "card": 33,
+          "estimated_value": 11.5
+        },
+        {
+          "card": 33,
+          "estimated_value": 11.5
+        },
+        {
+          "card": 33,
+          "estimated_value": 11.5
+        },
+        {
+          "card": 17,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 8,
+          "estimated_value": 15.0
+        },
+        {
+          "card": 8,
+          "estimated_value": 15.0
+        },
+        {
+          "card": 17,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 8,
+          "estimated_value": 15.0
+        },
+        {
+          "card": 17,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 8,
+          "estimated_value": 15.0
+        },
+        {
+          "card": 17,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 39,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 39,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 39,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 39,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 28,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 28,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 28,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 28,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 30,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 5,
+          "estimated_value": 18.0
+        },
+        {
+          "card": 30,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 5,
+          "estimated_value": 18.0
+        },
+        {
+          "card": 30,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 5,
+          "estimated_value": 18.0
+        },
+        {
+          "card": 5,
+          "estimated_value": 18.0
+        },
+        {
+          "card": 30,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 28,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 28,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 28,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 28,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 45,
+          "estimated_value": 8.000000000000002
+        },
+        {
+          "card": 13,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 13,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 45,
+          "estimated_value": 8.000000000000002
+        },
+        {
+          "card": 13,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 45,
+          "estimated_value": 8.000000000000002
+        },
+        {
+          "card": 13,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 45,
+          "estimated_value": 8.000000000000002
+        },
+        {
+          "card": 13,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 13,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 13,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 13,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 25,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 25,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 25,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 25,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 34,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 34,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 34,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 34,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 0,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 0,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 17,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 0,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 0,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 17,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 30,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 43,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 43,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 30,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 43,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 30,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 30,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 43,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 16,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 16,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 16,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 16,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 1,
+          "estimated_value": 14.0
+        },
+        {
+          "card": 1,
+          "estimated_value": 14.0
+        },
+        {
+          "card": 16,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 16,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 16,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 16,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 28,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 28,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 28,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 28,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 26,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 15,
+          "estimated_value": 10.500000000000002
+        },
+        {
+          "card": 15,
+          "estimated_value": 10.500000000000002
+        },
+        {
+          "card": 26,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 15,
+          "estimated_value": 10.500000000000002
+        },
+        {
+          "card": 26,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 26,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 15,
+          "estimated_value": 10.500000000000002
+        },
+        {
+          "card": 15,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 15,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 15,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 15,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 0,
+          "estimated_value": 5.5
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 0,
+          "estimated_value": 5.5
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 3,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 3,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 3,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 3,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 46,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 46,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 30,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 46,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 30,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 46,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 45,
+          "estimated_value": 8.000000000000002
+        },
+        {
+          "card": 45,
+          "estimated_value": 8.000000000000002
+        }
+      ],
+      "matches_with_rob": 250,
+      "win_rate_in_matches_with_rob": 0.536,
+      "invalid_action_count": 0,
+      "illegal_mask_action_disagreement_count": 0,
+      "mean_episodic_return": 0.07866666666666669,
+      "return_variance": 0.37958933333333333,
+      "mean_game_length": 43.204,
+      "inference_latency_ms": 0.018832851086893688,
+      "bradley_terry_rating": 1580.2906170431474,
+      "training_steps": null,
+      "training_wall_clock_seconds": null,
+      "model_parameter_count": 0,
+      "checkpoint_identifier": "baseline",
+      "training_seed": null,
+      "evaluation_seeds": [
+        15001,
+        15002,
+        15003,
+        15004,
+        15005,
+        1015004,
+        1015005,
+        1015006,
+        1015007,
+        1015008,
+        2015007,
+        2015008,
+        2015009,
+        2015010,
+        2015011,
+        3015010,
+        3015011,
+        3015012,
+        3015013,
+        3015014,
+        4015013,
+        4015014,
+        4015015,
+        4015016,
+        4015017,
+        5015016,
+        5015017,
+        5015018,
+        5015019,
+        5015020,
+        6015019,
+        6015020,
+        6015021,
+        6015022,
+        6015023,
+        7015022,
+        7015023,
+        7015024,
+        7015025,
+        7015026,
+        8015025,
+        8015026,
+        8015027,
+        8015028,
+        8015029,
+        9015028,
+        9015029,
+        9015030,
+        9015031,
+        9015032,
+        10015031,
+        10015032,
+        10015033,
+        10015034,
+        10015035,
+        11015034,
+        11015035,
+        11015036,
+        11015037,
+        11015038,
+        12015037,
+        12015038,
+        12015039
+      ]
+    },
+    {
+      "policy": "conservative",
+      "total_games": 1000,
+      "wins": 276,
+      "win_rate": 0.276,
+      "ci95_low": 0.248,
+      "ci95_high": 0.3048780487804878,
+      "wilson_ci95_low": 0.2491906205347866,
+      "wilson_ci95_high": 0.3045238300319165,
+      "average_final_score": 14.255,
+      "average_score_differential": -8.015,
+      "average_tricks_per_round": 1.128,
+      "average_rounds_per_match": 2.532,
+      "win_rate_by_seat": {
+        "0": 0.2777777777777778,
+        "1": 0.27380952380952384,
+        "2": 0.2782258064516129,
+        "3": 0.27419354838709675
+      },
+      "win_rate_by_dealer": {
+        "0": 0.272,
+        "1": 0.276,
+        "2": 0.276,
+        "3": 0.28
+      },
+      "win_rate_by_player_count": {
+        "4": 0.276
+      },
+      "average_trick_share_by_trump_suit": {
+        "0": 0.25091607565011825,
+        "2": 0.26303116147308786,
+        "3": 0.2809242871189774,
+        "1": 0.2406392694063927
+      },
+      "two_player_win_rate_against": {
+        "random": 0.64,
+        "lowest": 0.722,
+        "greedy": 0.41,
+        "conservative": null,
+        "counting": 0.518,
+        "rules3_final": 0.512,
+        "rules3_best": 0.54
+      },
+      "multiplayer_win_rate_against_homogeneous_table": {
+        "random": 0.35,
+        "lowest": 0.66,
+        "greedy": 0.3,
+        "conservative": null,
+        "counting": 0.25,
+        "rules3_final": 0.25,
+        "rules3_best": 0.29
+      },
+      "rob_opportunities": 268,
+      "rob_discard_choices": [
+        {
+          "card": 46,
+          "estimated_value": 5.5
+        },
+        {
+          "card": 46,
+          "estimated_value": 5.5
+        },
+        {
+          "card": 46,
+          "estimated_value": 5.5
+        },
+        {
+          "card": 46,
+          "estimated_value": 5.5
+        },
+        {
+          "card": 5,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 15,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 4,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 5,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 15,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 4,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 4,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 5,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 15,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 5,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 15,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 4,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 1,
+          "estimated_value": -2.4999999999999982
+        },
+        {
+          "card": 1,
+          "estimated_value": -2.4999999999999982
+        },
+        {
+          "card": 1,
+          "estimated_value": -2.4999999999999982
+        },
+        {
+          "card": 1,
+          "estimated_value": -2.4999999999999982
+        },
+        {
+          "card": 14,
+          "estimated_value": 8.000000000000002
+        },
+        {
+          "card": 14,
+          "estimated_value": 8.000000000000002
+        },
+        {
+          "card": 14,
+          "estimated_value": 8.000000000000002
+        },
+        {
+          "card": 14,
+          "estimated_value": 8.000000000000002
+        },
+        {
+          "card": 25,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 25,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 25,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 25,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 29,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 2,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 29,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 2,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 2,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 29,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 2,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 29,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 21,
+          "estimated_value": 25.5
+        },
+        {
+          "card": 32,
+          "estimated_value": -2.4999999999999982
+        },
+        {
+          "card": 32,
+          "estimated_value": -2.4999999999999982
+        },
+        {
+          "card": 21,
+          "estimated_value": 25.5
+        },
+        {
+          "card": 32,
+          "estimated_value": -2.4999999999999982
+        },
+        {
+          "card": 21,
+          "estimated_value": 25.5
+        },
+        {
+          "card": 32,
+          "estimated_value": -2.4999999999999982
+        },
+        {
+          "card": 21,
+          "estimated_value": 25.5
+        },
+        {
+          "card": 29,
+          "estimated_value": 20.0
+        },
+        {
+          "card": 29,
+          "estimated_value": 20.0
+        },
+        {
+          "card": 29,
+          "estimated_value": 20.0
+        },
+        {
+          "card": 29,
+          "estimated_value": 20.0
+        },
+        {
+          "card": 25,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 25,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 25,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 25,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 25,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 25,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 25,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 25,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 29,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 47,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 29,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 47,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 29,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 47,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 29,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 47,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 27,
+          "estimated_value": 10.0
+        },
+        {
+          "card": 50,
+          "estimated_value": 22.5
+        },
+        {
+          "card": 27,
+          "estimated_value": 10.0
+        },
+        {
+          "card": 50,
+          "estimated_value": 22.5
+        },
+        {
+          "card": 27,
+          "estimated_value": 10.0
+        },
+        {
+          "card": 50,
+          "estimated_value": 22.5
+        },
+        {
+          "card": 27,
+          "estimated_value": 10.0
+        },
+        {
+          "card": 50,
+          "estimated_value": 22.5
+        },
+        {
+          "card": 49,
+          "estimated_value": 20.000000000000007
+        },
+        {
+          "card": 16,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 49,
+          "estimated_value": 20.000000000000007
+        },
+        {
+          "card": 16,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 16,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 49,
+          "estimated_value": 20.000000000000007
+        },
+        {
+          "card": 49,
+          "estimated_value": 20.000000000000007
+        },
+        {
+          "card": 16,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 47,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 47,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 47,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 47,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 3,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 30,
+          "estimated_value": 17.5
+        },
+        {
+          "card": 3,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 3,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 30,
+          "estimated_value": 17.5
+        },
+        {
+          "card": 3,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 17,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 0,
+          "estimated_value": 5.5
+        },
+        {
+          "card": 17,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 17,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 0,
+          "estimated_value": 5.5
+        },
+        {
+          "card": 17,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 22,
+          "estimated_value": 17.500000000000004
+        },
+        {
+          "card": 28,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 22,
+          "estimated_value": 17.500000000000004
+        },
+        {
+          "card": 28,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 22,
+          "estimated_value": 17.500000000000004
+        },
+        {
+          "card": 28,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 28,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 22,
+          "estimated_value": 17.500000000000004
+        },
+        {
+          "card": 32,
+          "estimated_value": -2.4999999999999982
+        },
+        {
+          "card": 32,
+          "estimated_value": -2.4999999999999982
+        },
+        {
+          "card": 32,
+          "estimated_value": -2.4999999999999982
+        },
+        {
+          "card": 32,
+          "estimated_value": -2.4999999999999982
+        },
+        {
+          "card": 31,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 31,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 31,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 31,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 14,
+          "estimated_value": 14.0
+        },
+        {
+          "card": 14,
+          "estimated_value": 14.0
+        },
+        {
+          "card": 14,
+          "estimated_value": 14.0
+        },
+        {
+          "card": 14,
+          "estimated_value": 14.0
+        },
+        {
+          "card": 47,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 47,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 47,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 47,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 27,
+          "estimated_value": 25.0
+        },
+        {
+          "card": 27,
+          "estimated_value": 25.0
+        },
+        {
+          "card": 27,
+          "estimated_value": 25.0
+        },
+        {
+          "card": 27,
+          "estimated_value": 25.0
+        },
+        {
+          "card": 15,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 15,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 10,
+          "estimated_value": 20.000000000000007
+        },
+        {
+          "card": 10,
+          "estimated_value": 20.000000000000007
+        },
+        {
+          "card": 10,
+          "estimated_value": 20.000000000000007
+        },
+        {
+          "card": 10,
+          "estimated_value": 20.000000000000007
+        },
+        {
+          "card": 1,
+          "estimated_value": 12.500000000000002
+        },
+        {
+          "card": 1,
+          "estimated_value": 12.500000000000002
+        },
+        {
+          "card": 1,
+          "estimated_value": 12.500000000000002
+        },
+        {
+          "card": 1,
+          "estimated_value": 12.500000000000002
+        },
+        {
+          "card": 18,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 30,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 18,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 30,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 30,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 18,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 30,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 18,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 33,
+          "estimated_value": 11.5
+        },
+        {
+          "card": 33,
+          "estimated_value": 11.5
+        },
+        {
+          "card": 33,
+          "estimated_value": 11.5
+        },
+        {
+          "card": 33,
+          "estimated_value": 11.5
+        },
+        {
+          "card": 17,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 8,
+          "estimated_value": 15.0
+        },
+        {
+          "card": 8,
+          "estimated_value": 15.0
+        },
+        {
+          "card": 17,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 8,
+          "estimated_value": 15.0
+        },
+        {
+          "card": 17,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 8,
+          "estimated_value": 15.0
+        },
+        {
+          "card": 17,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 39,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 39,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 39,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 39,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 43,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 28,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 28,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 43,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 43,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 5,
+          "estimated_value": 18.0
+        },
+        {
+          "card": 43,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 5,
+          "estimated_value": 18.0
+        },
+        {
+          "card": 43,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 5,
+          "estimated_value": 18.0
+        },
+        {
+          "card": 5,
+          "estimated_value": 18.0
+        },
+        {
+          "card": 43,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 28,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 28,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 28,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 28,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 45,
+          "estimated_value": 8.000000000000002
+        },
+        {
+          "card": 13,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 13,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 45,
+          "estimated_value": 8.000000000000002
+        },
+        {
+          "card": 13,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 45,
+          "estimated_value": 8.000000000000002
+        },
+        {
+          "card": 13,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 45,
+          "estimated_value": 8.000000000000002
+        },
+        {
+          "card": 13,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 13,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 13,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 13,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 25,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 25,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 25,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 25,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 34,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 34,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 34,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 34,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 0,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 0,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 17,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 0,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 0,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 17,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 30,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 43,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 43,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 30,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 43,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 30,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 30,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 43,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 16,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 16,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 16,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 16,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 1,
+          "estimated_value": 14.0
+        },
+        {
+          "card": 1,
+          "estimated_value": 14.0
+        },
+        {
+          "card": 16,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 16,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 16,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 16,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 28,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 28,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 28,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 28,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 26,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 15,
+          "estimated_value": 10.500000000000002
+        },
+        {
+          "card": 15,
+          "estimated_value": 10.500000000000002
+        },
+        {
+          "card": 26,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 15,
+          "estimated_value": 10.500000000000002
+        },
+        {
+          "card": 26,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 26,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 15,
+          "estimated_value": 10.500000000000002
+        },
+        {
+          "card": 15,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 15,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 15,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 15,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 3,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 3,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 3,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 3,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 30,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 46,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 46,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 30,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 30,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 46,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 30,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 46,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 45,
+          "estimated_value": 8.000000000000002
+        },
+        {
+          "card": 45,
+          "estimated_value": 8.000000000000002
+        }
+      ],
+      "matches_with_rob": 252,
+      "win_rate_in_matches_with_rob": 0.46825396825396826,
+      "invalid_action_count": 0,
+      "illegal_mask_action_disagreement_count": 0,
+      "mean_episodic_return": 0.03466666666666668,
+      "return_variance": 0.35524266666666665,
+      "mean_game_length": 44.43,
+      "inference_latency_ms": 0.028194927507060052,
+      "bradley_terry_rating": 1536.4317996319235,
+      "training_steps": null,
+      "training_wall_clock_seconds": null,
+      "model_parameter_count": 0,
+      "checkpoint_identifier": "baseline",
+      "training_seed": null,
+      "evaluation_seeds": [
+        15001,
+        15002,
+        15003,
+        15004,
+        15005,
+        1015004,
+        1015005,
+        1015006,
+        1015007,
+        1015008,
+        2015007,
+        2015008,
+        2015009,
+        2015010,
+        2015011,
+        3015010,
+        3015011,
+        3015012,
+        3015013,
+        3015014,
+        4015013,
+        4015014,
+        4015015,
+        4015016,
+        4015017,
+        5015016,
+        5015017,
+        5015018,
+        5015019,
+        5015020,
+        6015019,
+        6015020,
+        6015021,
+        6015022,
+        6015023,
+        7015022,
+        7015023,
+        7015024,
+        7015025,
+        7015026,
+        8015025,
+        8015026,
+        8015027,
+        8015028,
+        8015029,
+        9015028,
+        9015029,
+        9015030,
+        9015031,
+        9015032,
+        10015031,
+        10015032,
+        10015033,
+        10015034,
+        10015035,
+        11015034,
+        11015035,
+        11015036,
+        11015037,
+        11015038,
+        12015037,
+        12015038,
+        12015039
+      ]
+    },
+    {
+      "policy": "counting",
+      "total_games": 1000,
+      "wins": 237,
+      "win_rate": 0.237,
+      "ci95_low": 0.20833333333333334,
+      "ci95_high": 0.265,
+      "wilson_ci95_low": 0.21168091851549473,
+      "wilson_ci95_high": 0.26433203014094675,
+      "average_final_score": 13.295,
+      "average_score_differential": -9.405,
+      "average_tricks_per_round": 1.022,
+      "average_rounds_per_match": 2.581,
+      "win_rate_by_seat": {
+        "0": 0.23809523809523808,
+        "1": 0.23809523809523808,
+        "2": 0.23387096774193547,
+        "3": 0.23790322580645162
+      },
+      "win_rate_by_dealer": {
+        "0": 0.216,
+        "1": 0.256,
+        "2": 0.22,
+        "3": 0.256
+      },
+      "win_rate_by_player_count": {
+        "4": 0.237
+      },
+      "average_trick_share_by_trump_suit": {
+        "0": 0.23445032333921223,
+        "2": 0.254363974001857,
+        "3": 0.24259789875835722,
+        "1": 0.2327759197324415
+      },
+      "two_player_win_rate_against": {
+        "random": 0.636,
+        "lowest": 0.712,
+        "greedy": 0.408,
+        "conservative": 0.482,
+        "counting": null,
+        "rules3_final": 0.496,
+        "rules3_best": 0.528
+      },
+      "multiplayer_win_rate_against_homogeneous_table": {
+        "random": 0.31,
+        "lowest": 0.37,
+        "greedy": 0.24,
+        "conservative": 0.33,
+        "counting": null,
+        "rules3_final": 0.17,
+        "rules3_best": 0.24
+      },
+      "rob_opportunities": 266,
+      "rob_discard_choices": [
+        {
+          "card": 46,
+          "estimated_value": 5.5
+        },
+        {
+          "card": 46,
+          "estimated_value": 5.5
+        },
+        {
+          "card": 46,
+          "estimated_value": 5.5
+        },
+        {
+          "card": 46,
+          "estimated_value": 5.5
+        },
+        {
+          "card": 5,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 15,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 4,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 5,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 15,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 4,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 4,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 5,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 15,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 5,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 15,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 4,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 1,
+          "estimated_value": -2.4999999999999982
+        },
+        {
+          "card": 1,
+          "estimated_value": -2.4999999999999982
+        },
+        {
+          "card": 1,
+          "estimated_value": -2.4999999999999982
+        },
+        {
+          "card": 1,
+          "estimated_value": -2.4999999999999982
+        },
+        {
+          "card": 14,
+          "estimated_value": 8.000000000000002
+        },
+        {
+          "card": 14,
+          "estimated_value": 8.000000000000002
+        },
+        {
+          "card": 14,
+          "estimated_value": 8.000000000000002
+        },
+        {
+          "card": 14,
+          "estimated_value": 8.000000000000002
+        },
+        {
+          "card": 25,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 25,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 25,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 25,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 29,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 2,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 29,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 2,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 2,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 29,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 2,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 29,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 21,
+          "estimated_value": 25.5
+        },
+        {
+          "card": 32,
+          "estimated_value": -2.4999999999999982
+        },
+        {
+          "card": 32,
+          "estimated_value": -2.4999999999999982
+        },
+        {
+          "card": 21,
+          "estimated_value": 25.5
+        },
+        {
+          "card": 32,
+          "estimated_value": -2.4999999999999982
+        },
+        {
+          "card": 21,
+          "estimated_value": 25.5
+        },
+        {
+          "card": 32,
+          "estimated_value": -2.4999999999999982
+        },
+        {
+          "card": 21,
+          "estimated_value": 25.5
+        },
+        {
+          "card": 29,
+          "estimated_value": 20.0
+        },
+        {
+          "card": 29,
+          "estimated_value": 20.0
+        },
+        {
+          "card": 29,
+          "estimated_value": 20.0
+        },
+        {
+          "card": 29,
+          "estimated_value": 20.0
+        },
+        {
+          "card": 25,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 25,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 25,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 25,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 25,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 25,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 29,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 47,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 29,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 47,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 29,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 47,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 29,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 47,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 27,
+          "estimated_value": 10.0
+        },
+        {
+          "card": 50,
+          "estimated_value": 22.5
+        },
+        {
+          "card": 27,
+          "estimated_value": 10.0
+        },
+        {
+          "card": 50,
+          "estimated_value": 22.5
+        },
+        {
+          "card": 27,
+          "estimated_value": 10.0
+        },
+        {
+          "card": 50,
+          "estimated_value": 22.5
+        },
+        {
+          "card": 27,
+          "estimated_value": 10.0
+        },
+        {
+          "card": 50,
+          "estimated_value": 22.5
+        },
+        {
+          "card": 49,
+          "estimated_value": 20.000000000000007
+        },
+        {
+          "card": 16,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 49,
+          "estimated_value": 20.000000000000007
+        },
+        {
+          "card": 16,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 16,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 49,
+          "estimated_value": 20.000000000000007
+        },
+        {
+          "card": 49,
+          "estimated_value": 20.000000000000007
+        },
+        {
+          "card": 16,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 47,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 47,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 47,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 47,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 3,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 3,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 3,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 3,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 17,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 17,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 17,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 17,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 22,
+          "estimated_value": 17.500000000000004
+        },
+        {
+          "card": 22,
+          "estimated_value": 17.500000000000004
+        },
+        {
+          "card": 22,
+          "estimated_value": 17.500000000000004
+        },
+        {
+          "card": 22,
+          "estimated_value": 17.500000000000004
+        },
+        {
+          "card": 32,
+          "estimated_value": -2.4999999999999982
+        },
+        {
+          "card": 32,
+          "estimated_value": -2.4999999999999982
+        },
+        {
+          "card": 32,
+          "estimated_value": -2.4999999999999982
+        },
+        {
+          "card": 32,
+          "estimated_value": -2.4999999999999982
+        },
+        {
+          "card": 31,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 31,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 31,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 31,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 14,
+          "estimated_value": 14.0
+        },
+        {
+          "card": 4,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 14,
+          "estimated_value": 14.0
+        },
+        {
+          "card": 14,
+          "estimated_value": 14.0
+        },
+        {
+          "card": 4,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 14,
+          "estimated_value": 14.0
+        },
+        {
+          "card": 47,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 47,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 47,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 47,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 27,
+          "estimated_value": 25.0
+        },
+        {
+          "card": 27,
+          "estimated_value": 25.0
+        },
+        {
+          "card": 27,
+          "estimated_value": 25.0
+        },
+        {
+          "card": 27,
+          "estimated_value": 25.0
+        },
+        {
+          "card": 10,
+          "estimated_value": 20.000000000000007
+        },
+        {
+          "card": 10,
+          "estimated_value": 20.000000000000007
+        },
+        {
+          "card": 10,
+          "estimated_value": 20.000000000000007
+        },
+        {
+          "card": 10,
+          "estimated_value": 20.000000000000007
+        },
+        {
+          "card": 1,
+          "estimated_value": 12.500000000000002
+        },
+        {
+          "card": 1,
+          "estimated_value": 12.500000000000002
+        },
+        {
+          "card": 1,
+          "estimated_value": 12.500000000000002
+        },
+        {
+          "card": 1,
+          "estimated_value": 12.500000000000002
+        },
+        {
+          "card": 18,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 30,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 18,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 30,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 30,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 18,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 30,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 18,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 33,
+          "estimated_value": 11.5
+        },
+        {
+          "card": 33,
+          "estimated_value": 11.5
+        },
+        {
+          "card": 33,
+          "estimated_value": 11.5
+        },
+        {
+          "card": 33,
+          "estimated_value": 11.5
+        },
+        {
+          "card": 17,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 8,
+          "estimated_value": 15.0
+        },
+        {
+          "card": 8,
+          "estimated_value": 15.0
+        },
+        {
+          "card": 17,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 8,
+          "estimated_value": 15.0
+        },
+        {
+          "card": 17,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 8,
+          "estimated_value": 15.0
+        },
+        {
+          "card": 17,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 39,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 13,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 39,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 39,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 13,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 39,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 43,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 28,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 28,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 28,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 43,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 28,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 43,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 5,
+          "estimated_value": 18.0
+        },
+        {
+          "card": 43,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 5,
+          "estimated_value": 18.0
+        },
+        {
+          "card": 43,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 5,
+          "estimated_value": 18.0
+        },
+        {
+          "card": 5,
+          "estimated_value": 18.0
+        },
+        {
+          "card": 43,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 28,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 28,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 28,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 28,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 45,
+          "estimated_value": 8.000000000000002
+        },
+        {
+          "card": 13,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 13,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 45,
+          "estimated_value": 8.000000000000002
+        },
+        {
+          "card": 13,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 45,
+          "estimated_value": 8.000000000000002
+        },
+        {
+          "card": 13,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 45,
+          "estimated_value": 8.000000000000002
+        },
+        {
+          "card": 13,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 13,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 13,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 13,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 25,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 25,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 25,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 25,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 34,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 34,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 34,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 34,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 0,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 0,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 17,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 0,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 0,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 17,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 30,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 43,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 43,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 30,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 43,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 30,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 30,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 43,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 16,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 25,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 16,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 16,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 25,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 16,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 1,
+          "estimated_value": 14.0
+        },
+        {
+          "card": 1,
+          "estimated_value": 14.0
+        },
+        {
+          "card": 1,
+          "estimated_value": 14.0
+        },
+        {
+          "card": 1,
+          "estimated_value": 14.0
+        },
+        {
+          "card": 16,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 16,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 16,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 16,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 28,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 28,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 28,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 28,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 26,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 15,
+          "estimated_value": 10.500000000000002
+        },
+        {
+          "card": 15,
+          "estimated_value": 10.500000000000002
+        },
+        {
+          "card": 26,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 15,
+          "estimated_value": 10.500000000000002
+        },
+        {
+          "card": 26,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 26,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 15,
+          "estimated_value": 10.500000000000002
+        },
+        {
+          "card": 15,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 15,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 15,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 15,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 3,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 3,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 3,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 3,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 30,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 46,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 46,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 30,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 30,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 46,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 30,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 46,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 45,
+          "estimated_value": 8.000000000000002
+        },
+        {
+          "card": 45,
+          "estimated_value": 8.000000000000002
+        }
+      ],
+      "matches_with_rob": 248,
+      "win_rate_in_matches_with_rob": 0.43548387096774194,
+      "invalid_action_count": 0,
+      "illegal_mask_action_disagreement_count": 0,
+      "mean_episodic_return": -0.01733333333333332,
+      "return_variance": 0.32147733333333334,
+      "mean_game_length": 44.888,
+      "inference_latency_ms": 0.058281443443348895,
+      "bradley_terry_rating": 1528.1392783980298,
+      "training_steps": null,
+      "training_wall_clock_seconds": null,
+      "model_parameter_count": 0,
+      "checkpoint_identifier": "baseline",
+      "training_seed": null,
+      "evaluation_seeds": [
+        15001,
+        15002,
+        15003,
+        15004,
+        15005,
+        1015004,
+        1015005,
+        1015006,
+        1015007,
+        1015008,
+        2015007,
+        2015008,
+        2015009,
+        2015010,
+        2015011,
+        3015010,
+        3015011,
+        3015012,
+        3015013,
+        3015014,
+        4015013,
+        4015014,
+        4015015,
+        4015016,
+        4015017,
+        5015016,
+        5015017,
+        5015018,
+        5015019,
+        5015020,
+        6015019,
+        6015020,
+        6015021,
+        6015022,
+        6015023,
+        7015022,
+        7015023,
+        7015024,
+        7015025,
+        7015026,
+        8015025,
+        8015026,
+        8015027,
+        8015028,
+        8015029,
+        9015028,
+        9015029,
+        9015030,
+        9015031,
+        9015032,
+        10015031,
+        10015032,
+        10015033,
+        10015034,
+        10015035,
+        11015034,
+        11015035,
+        11015036,
+        11015037,
+        11015038,
+        12015037,
+        12015038,
+        12015039
+      ]
+    },
+    {
+      "policy": "rules3_final",
+      "total_games": 1000,
+      "wins": 228,
+      "win_rate": 0.228,
+      "ci95_low": 0.202,
+      "ci95_high": 0.25396825396825395,
+      "wilson_ci95_low": 0.2030663348295291,
+      "wilson_ci95_high": 0.2550154980014674,
+      "average_final_score": 12.835,
+      "average_score_differential": -9.53,
+      "average_tricks_per_round": 1.0616666666666668,
+      "average_rounds_per_match": 2.478,
+      "win_rate_by_seat": {
+        "0": 0.23412698412698413,
+        "1": 0.2222222222222222,
+        "2": 0.23387096774193547,
+        "3": 0.2217741935483871
+      },
+      "win_rate_by_dealer": {
+        "0": 0.236,
+        "1": 0.216,
+        "2": 0.24,
+        "3": 0.22
+      },
+      "win_rate_by_player_count": {
+        "4": 0.228
+      },
+      "average_trick_share_by_trump_suit": {
+        "0": 0.24501173708920185,
+        "2": 0.2331159420289855,
+        "3": 0.2438871473354232,
+        "1": 0.2643757159221077
+      },
+      "two_player_win_rate_against": {
+        "random": 0.598,
+        "lowest": 0.754,
+        "greedy": 0.45,
+        "conservative": 0.488,
+        "counting": 0.504,
+        "rules3_final": null,
+        "rules3_best": 0.52
+      },
+      "multiplayer_win_rate_against_homogeneous_table": {
+        "random": 0.25,
+        "lowest": 0.67,
+        "greedy": 0.25,
+        "conservative": 0.21,
+        "counting": 0.33,
+        "rules3_final": null,
+        "rules3_best": 0.22
+      },
+      "rob_opportunities": 268,
+      "rob_discard_choices": [
+        {
+          "card": 43,
+          "estimated_value": 14.5
+        },
+        {
+          "card": 43,
+          "estimated_value": 14.5
+        },
+        {
+          "card": 43,
+          "estimated_value": 14.5
+        },
+        {
+          "card": 43,
+          "estimated_value": 14.5
+        },
+        {
+          "card": 42,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 42,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 4,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 42,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 42,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 4,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 4,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 42,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 42,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 42,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 42,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 4,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 34,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 34,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 34,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 34,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 14,
+          "estimated_value": 8.000000000000002
+        },
+        {
+          "card": 14,
+          "estimated_value": 8.000000000000002
+        },
+        {
+          "card": 14,
+          "estimated_value": 8.000000000000002
+        },
+        {
+          "card": 14,
+          "estimated_value": 8.000000000000002
+        },
+        {
+          "card": 26,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 26,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 26,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 26,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 29,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 2,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 29,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 2,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 2,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 29,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 2,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 29,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 21,
+          "estimated_value": 25.5
+        },
+        {
+          "card": 47,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 47,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 21,
+          "estimated_value": 25.5
+        },
+        {
+          "card": 47,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 21,
+          "estimated_value": 25.5
+        },
+        {
+          "card": 47,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 21,
+          "estimated_value": 25.5
+        },
+        {
+          "card": 29,
+          "estimated_value": 20.0
+        },
+        {
+          "card": 29,
+          "estimated_value": 20.0
+        },
+        {
+          "card": 29,
+          "estimated_value": 20.0
+        },
+        {
+          "card": 29,
+          "estimated_value": 20.0
+        },
+        {
+          "card": 0,
+          "estimated_value": 5.5
+        },
+        {
+          "card": 39,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 39,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 0,
+          "estimated_value": 5.5
+        },
+        {
+          "card": 39,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 0,
+          "estimated_value": 5.5
+        },
+        {
+          "card": 0,
+          "estimated_value": 5.5
+        },
+        {
+          "card": 39,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 29,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 47,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 29,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 47,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 29,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 47,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 29,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 47,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 1,
+          "estimated_value": 12.500000000000002
+        },
+        {
+          "card": 7,
+          "estimated_value": 23.0
+        },
+        {
+          "card": 1,
+          "estimated_value": 12.500000000000002
+        },
+        {
+          "card": 7,
+          "estimated_value": 23.0
+        },
+        {
+          "card": 1,
+          "estimated_value": 12.500000000000002
+        },
+        {
+          "card": 7,
+          "estimated_value": 23.0
+        },
+        {
+          "card": 1,
+          "estimated_value": 12.500000000000002
+        },
+        {
+          "card": 7,
+          "estimated_value": 23.0
+        },
+        {
+          "card": 49,
+          "estimated_value": 20.000000000000007
+        },
+        {
+          "card": 40,
+          "estimated_value": 10.0
+        },
+        {
+          "card": 49,
+          "estimated_value": 20.000000000000007
+        },
+        {
+          "card": 40,
+          "estimated_value": 10.0
+        },
+        {
+          "card": 40,
+          "estimated_value": 10.0
+        },
+        {
+          "card": 49,
+          "estimated_value": 20.000000000000007
+        },
+        {
+          "card": 49,
+          "estimated_value": 20.000000000000007
+        },
+        {
+          "card": 40,
+          "estimated_value": 10.0
+        },
+        {
+          "card": 47,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 47,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 47,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 47,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 33,
+          "estimated_value": 7.0
+        },
+        {
+          "card": 30,
+          "estimated_value": 17.5
+        },
+        {
+          "card": 33,
+          "estimated_value": 7.0
+        },
+        {
+          "card": 33,
+          "estimated_value": 7.0
+        },
+        {
+          "card": 30,
+          "estimated_value": 17.5
+        },
+        {
+          "card": 33,
+          "estimated_value": 7.0
+        },
+        {
+          "card": 43,
+          "estimated_value": 14.5
+        },
+        {
+          "card": 43,
+          "estimated_value": 14.5
+        },
+        {
+          "card": 43,
+          "estimated_value": 14.5
+        },
+        {
+          "card": 43,
+          "estimated_value": 14.5
+        },
+        {
+          "card": 37,
+          "estimated_value": 22.5
+        },
+        {
+          "card": 28,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 37,
+          "estimated_value": 22.5
+        },
+        {
+          "card": 37,
+          "estimated_value": 22.5
+        },
+        {
+          "card": 28,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 37,
+          "estimated_value": 22.5
+        },
+        {
+          "card": 3,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 3,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 3,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 3,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 16,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 16,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 16,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 16,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 14,
+          "estimated_value": 14.0
+        },
+        {
+          "card": 33,
+          "estimated_value": 5.5
+        },
+        {
+          "card": 14,
+          "estimated_value": 14.0
+        },
+        {
+          "card": 14,
+          "estimated_value": 14.0
+        },
+        {
+          "card": 33,
+          "estimated_value": 5.5
+        },
+        {
+          "card": 14,
+          "estimated_value": 14.0
+        },
+        {
+          "card": 47,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 47,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 47,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 47,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 27,
+          "estimated_value": 25.0
+        },
+        {
+          "card": 27,
+          "estimated_value": 25.0
+        },
+        {
+          "card": 27,
+          "estimated_value": 25.0
+        },
+        {
+          "card": 27,
+          "estimated_value": 25.0
+        },
+        {
+          "card": 15,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 15,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 10,
+          "estimated_value": 20.000000000000007
+        },
+        {
+          "card": 10,
+          "estimated_value": 20.000000000000007
+        },
+        {
+          "card": 10,
+          "estimated_value": 20.000000000000007
+        },
+        {
+          "card": 10,
+          "estimated_value": 20.000000000000007
+        },
+        {
+          "card": 9,
+          "estimated_value": 34.0
+        },
+        {
+          "card": 9,
+          "estimated_value": 34.0
+        },
+        {
+          "card": 45,
+          "estimated_value": 8.000000000000002
+        },
+        {
+          "card": 43,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 45,
+          "estimated_value": 8.000000000000002
+        },
+        {
+          "card": 43,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 43,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 45,
+          "estimated_value": 8.000000000000002
+        },
+        {
+          "card": 43,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 45,
+          "estimated_value": 8.000000000000002
+        },
+        {
+          "card": 33,
+          "estimated_value": 11.5
+        },
+        {
+          "card": 33,
+          "estimated_value": 11.5
+        },
+        {
+          "card": 33,
+          "estimated_value": 11.5
+        },
+        {
+          "card": 33,
+          "estimated_value": 11.5
+        },
+        {
+          "card": 17,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 8,
+          "estimated_value": 15.0
+        },
+        {
+          "card": 8,
+          "estimated_value": 15.0
+        },
+        {
+          "card": 17,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 8,
+          "estimated_value": 15.0
+        },
+        {
+          "card": 17,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 8,
+          "estimated_value": 15.0
+        },
+        {
+          "card": 17,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 39,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 39,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 46,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 39,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 46,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 39,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 43,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 43,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 43,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 43,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 43,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 5,
+          "estimated_value": 18.0
+        },
+        {
+          "card": 43,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 5,
+          "estimated_value": 18.0
+        },
+        {
+          "card": 43,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 5,
+          "estimated_value": 18.0
+        },
+        {
+          "card": 5,
+          "estimated_value": 18.0
+        },
+        {
+          "card": 43,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 30,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 28,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 30,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 28,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 30,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 28,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 28,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 30,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 45,
+          "estimated_value": 8.000000000000002
+        },
+        {
+          "card": 13,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 13,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 45,
+          "estimated_value": 8.000000000000002
+        },
+        {
+          "card": 13,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 45,
+          "estimated_value": 8.000000000000002
+        },
+        {
+          "card": 13,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 45,
+          "estimated_value": 8.000000000000002
+        },
+        {
+          "card": 13,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 13,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 13,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 13,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 14,
+          "estimated_value": 14.000000000000002
+        },
+        {
+          "card": 14,
+          "estimated_value": 14.000000000000002
+        },
+        {
+          "card": 14,
+          "estimated_value": 14.000000000000002
+        },
+        {
+          "card": 14,
+          "estimated_value": 14.000000000000002
+        },
+        {
+          "card": 46,
+          "estimated_value": 5.5
+        },
+        {
+          "card": 47,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 47,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 46,
+          "estimated_value": 5.5
+        },
+        {
+          "card": 47,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 46,
+          "estimated_value": 5.5
+        },
+        {
+          "card": 47,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 46,
+          "estimated_value": 5.5
+        },
+        {
+          "card": 40,
+          "estimated_value": 10.0
+        },
+        {
+          "card": 40,
+          "estimated_value": 10.0
+        },
+        {
+          "card": 8,
+          "estimated_value": 27.0
+        },
+        {
+          "card": 40,
+          "estimated_value": 10.0
+        },
+        {
+          "card": 40,
+          "estimated_value": 10.0
+        },
+        {
+          "card": 8,
+          "estimated_value": 27.0
+        },
+        {
+          "card": 45,
+          "estimated_value": 8.000000000000002
+        },
+        {
+          "card": 45,
+          "estimated_value": 8.000000000000002
+        },
+        {
+          "card": 45,
+          "estimated_value": 8.000000000000002
+        },
+        {
+          "card": 45,
+          "estimated_value": 8.000000000000002
+        },
+        {
+          "card": 30,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 33,
+          "estimated_value": 5.5
+        },
+        {
+          "card": 43,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 43,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 30,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 43,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 30,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 33,
+          "estimated_value": 5.5
+        },
+        {
+          "card": 30,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 43,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 3,
+          "estimated_value": 17.5
+        },
+        {
+          "card": 3,
+          "estimated_value": 17.5
+        },
+        {
+          "card": 3,
+          "estimated_value": 17.5
+        },
+        {
+          "card": 3,
+          "estimated_value": 17.5
+        },
+        {
+          "card": 16,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 16,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 16,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 16,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 28,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 39,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 28,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 39,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 39,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 28,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 39,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 28,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 8,
+          "estimated_value": 15.0
+        },
+        {
+          "card": 16,
+          "estimated_value": 14.5
+        },
+        {
+          "card": 16,
+          "estimated_value": 14.5
+        },
+        {
+          "card": 8,
+          "estimated_value": 15.0
+        },
+        {
+          "card": 16,
+          "estimated_value": 14.5
+        },
+        {
+          "card": 8,
+          "estimated_value": 15.0
+        },
+        {
+          "card": 8,
+          "estimated_value": 15.0
+        },
+        {
+          "card": 16,
+          "estimated_value": 14.5
+        },
+        {
+          "card": 33,
+          "estimated_value": 5.5
+        },
+        {
+          "card": 33,
+          "estimated_value": 5.5
+        },
+        {
+          "card": 33,
+          "estimated_value": 5.5
+        },
+        {
+          "card": 33,
+          "estimated_value": 5.5
+        },
+        {
+          "card": 43,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 2,
+          "estimated_value": 12.000000000000002
+        },
+        {
+          "card": 43,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 2,
+          "estimated_value": 12.000000000000002
+        },
+        {
+          "card": 43,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 43,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 3,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 3,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 3,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 3,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 30,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 46,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 46,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 30,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 30,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 46,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 30,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 46,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 43,
+          "estimated_value": 14.5
+        },
+        {
+          "card": 43,
+          "estimated_value": 14.5
+        }
+      ],
+      "matches_with_rob": 248,
+      "win_rate_in_matches_with_rob": 0.47580645161290325,
+      "invalid_action_count": 0,
+      "illegal_mask_action_disagreement_count": 0,
+      "mean_episodic_return": -0.02933333333333332,
+      "return_variance": 0.3129173333333333,
+      "mean_game_length": 43.126,
+      "inference_latency_ms": 0.2822651938360995,
+      "bradley_terry_rating": 1533.5261270938447,
+      "training_steps": 12893143,
+      "training_wall_clock_seconds": 3321.168352127075,
+      "model_parameter_count": 550761,
+      "checkpoint_identifier": "ppo_curriculum_rules3.pt",
+      "training_seed": 3,
+      "evaluation_seeds": [
+        15001,
+        15002,
+        15003,
+        15004,
+        15005,
+        1015004,
+        1015005,
+        1015006,
+        1015007,
+        1015008,
+        2015007,
+        2015008,
+        2015009,
+        2015010,
+        2015011,
+        3015010,
+        3015011,
+        3015012,
+        3015013,
+        3015014,
+        4015013,
+        4015014,
+        4015015,
+        4015016,
+        4015017,
+        5015016,
+        5015017,
+        5015018,
+        5015019,
+        5015020,
+        6015019,
+        6015020,
+        6015021,
+        6015022,
+        6015023,
+        7015022,
+        7015023,
+        7015024,
+        7015025,
+        7015026,
+        8015025,
+        8015026,
+        8015027,
+        8015028,
+        8015029,
+        9015028,
+        9015029,
+        9015030,
+        9015031,
+        9015032,
+        10015031,
+        10015032,
+        10015033,
+        10015034,
+        10015035,
+        11015034,
+        11015035,
+        11015036,
+        11015037,
+        11015038,
+        12015037,
+        12015038,
+        12015039
+      ]
+    },
+    {
+      "policy": "rules3_best",
+      "total_games": 1000,
+      "wins": 220,
+      "win_rate": 0.22,
+      "ci95_low": 0.19556451612903225,
+      "ci95_high": 0.24404761904761904,
+      "wilson_ci95_low": 0.19542306230476741,
+      "wilson_ci95_high": 0.24672000090361135,
+      "average_final_score": 12.72,
+      "average_score_differential": -9.855,
+      "average_tricks_per_round": 1.0333333333333332,
+      "average_rounds_per_match": 2.5,
+      "win_rate_by_seat": {
+        "0": 0.23412698412698413,
+        "1": 0.20634920634920634,
+        "2": 0.23387096774193547,
+        "3": 0.2056451612903226
+      },
+      "win_rate_by_dealer": {
+        "0": 0.216,
+        "1": 0.224,
+        "2": 0.22,
+        "3": 0.22
+      },
+      "win_rate_by_player_count": {
+        "4": 0.22
+      },
+      "average_trick_share_by_trump_suit": {
+        "0": 0.24045077105575324,
+        "2": 0.22526115859449192,
+        "3": 0.2328141225337487,
+        "1": 0.2557800224466891
+      },
+      "two_player_win_rate_against": {
+        "random": 0.59,
+        "lowest": 0.73,
+        "greedy": 0.426,
+        "conservative": 0.46,
+        "counting": 0.472,
+        "rules3_final": 0.48,
+        "rules3_best": null
+      },
+      "multiplayer_win_rate_against_homogeneous_table": {
+        "random": 0.26,
+        "lowest": 0.66,
+        "greedy": 0.26,
+        "conservative": 0.29,
+        "counting": 0.37,
+        "rules3_final": 0.21,
+        "rules3_best": null
+      },
+      "rob_opportunities": 268,
+      "rob_discard_choices": [
+        {
+          "card": 43,
+          "estimated_value": 14.5
+        },
+        {
+          "card": 43,
+          "estimated_value": 14.5
+        },
+        {
+          "card": 43,
+          "estimated_value": 14.5
+        },
+        {
+          "card": 43,
+          "estimated_value": 14.5
+        },
+        {
+          "card": 5,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 42,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 5,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 42,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 4,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 5,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 42,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 5,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 42,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 4,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 34,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 34,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 34,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 34,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 14,
+          "estimated_value": 8.000000000000002
+        },
+        {
+          "card": 14,
+          "estimated_value": 8.000000000000002
+        },
+        {
+          "card": 14,
+          "estimated_value": 8.000000000000002
+        },
+        {
+          "card": 14,
+          "estimated_value": 8.000000000000002
+        },
+        {
+          "card": 25,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 25,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 25,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 25,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 29,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 20,
+          "estimated_value": 23.0
+        },
+        {
+          "card": 29,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 20,
+          "estimated_value": 23.0
+        },
+        {
+          "card": 20,
+          "estimated_value": 23.0
+        },
+        {
+          "card": 29,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 20,
+          "estimated_value": 23.0
+        },
+        {
+          "card": 29,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 21,
+          "estimated_value": 25.5
+        },
+        {
+          "card": 47,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 47,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 21,
+          "estimated_value": 25.5
+        },
+        {
+          "card": 47,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 21,
+          "estimated_value": 25.5
+        },
+        {
+          "card": 47,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 21,
+          "estimated_value": 25.5
+        },
+        {
+          "card": 29,
+          "estimated_value": 20.0
+        },
+        {
+          "card": 29,
+          "estimated_value": 20.0
+        },
+        {
+          "card": 29,
+          "estimated_value": 20.0
+        },
+        {
+          "card": 29,
+          "estimated_value": 20.0
+        },
+        {
+          "card": 0,
+          "estimated_value": 5.5
+        },
+        {
+          "card": 25,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 25,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 0,
+          "estimated_value": 5.5
+        },
+        {
+          "card": 25,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 0,
+          "estimated_value": 5.5
+        },
+        {
+          "card": 0,
+          "estimated_value": 5.5
+        },
+        {
+          "card": 25,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 40,
+          "estimated_value": 10.0
+        },
+        {
+          "card": 29,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 47,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 29,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 47,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 29,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 47,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 40,
+          "estimated_value": 10.0
+        },
+        {
+          "card": 29,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 47,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 1,
+          "estimated_value": 12.500000000000002
+        },
+        {
+          "card": 7,
+          "estimated_value": 23.0
+        },
+        {
+          "card": 1,
+          "estimated_value": 12.500000000000002
+        },
+        {
+          "card": 7,
+          "estimated_value": 23.0
+        },
+        {
+          "card": 1,
+          "estimated_value": 12.500000000000002
+        },
+        {
+          "card": 7,
+          "estimated_value": 23.0
+        },
+        {
+          "card": 1,
+          "estimated_value": 12.500000000000002
+        },
+        {
+          "card": 7,
+          "estimated_value": 23.0
+        },
+        {
+          "card": 49,
+          "estimated_value": 20.000000000000007
+        },
+        {
+          "card": 40,
+          "estimated_value": 10.0
+        },
+        {
+          "card": 49,
+          "estimated_value": 20.000000000000007
+        },
+        {
+          "card": 40,
+          "estimated_value": 10.0
+        },
+        {
+          "card": 40,
+          "estimated_value": 10.0
+        },
+        {
+          "card": 49,
+          "estimated_value": 20.000000000000007
+        },
+        {
+          "card": 49,
+          "estimated_value": 20.000000000000007
+        },
+        {
+          "card": 40,
+          "estimated_value": 10.0
+        },
+        {
+          "card": 47,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 47,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 47,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 47,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 3,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 30,
+          "estimated_value": 17.5
+        },
+        {
+          "card": 3,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 3,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 30,
+          "estimated_value": 17.5
+        },
+        {
+          "card": 3,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 43,
+          "estimated_value": 14.5
+        },
+        {
+          "card": 0,
+          "estimated_value": 5.5
+        },
+        {
+          "card": 43,
+          "estimated_value": 14.5
+        },
+        {
+          "card": 43,
+          "estimated_value": 14.5
+        },
+        {
+          "card": 0,
+          "estimated_value": 5.5
+        },
+        {
+          "card": 43,
+          "estimated_value": 14.5
+        },
+        {
+          "card": 22,
+          "estimated_value": 17.500000000000004
+        },
+        {
+          "card": 28,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 22,
+          "estimated_value": 17.500000000000004
+        },
+        {
+          "card": 22,
+          "estimated_value": 17.500000000000004
+        },
+        {
+          "card": 28,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 22,
+          "estimated_value": 17.500000000000004
+        },
+        {
+          "card": 3,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 3,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 3,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 3,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 16,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 16,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 16,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 16,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 14,
+          "estimated_value": 14.0
+        },
+        {
+          "card": 14,
+          "estimated_value": 14.0
+        },
+        {
+          "card": 14,
+          "estimated_value": 14.0
+        },
+        {
+          "card": 14,
+          "estimated_value": 14.0
+        },
+        {
+          "card": 47,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 47,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 47,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 47,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 27,
+          "estimated_value": 25.0
+        },
+        {
+          "card": 27,
+          "estimated_value": 25.0
+        },
+        {
+          "card": 27,
+          "estimated_value": 25.0
+        },
+        {
+          "card": 27,
+          "estimated_value": 25.0
+        },
+        {
+          "card": 15,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 15,
+          "estimated_value": 1.7763568394002505e-15
+        },
+        {
+          "card": 10,
+          "estimated_value": 20.000000000000007
+        },
+        {
+          "card": 10,
+          "estimated_value": 20.000000000000007
+        },
+        {
+          "card": 10,
+          "estimated_value": 20.000000000000007
+        },
+        {
+          "card": 10,
+          "estimated_value": 20.000000000000007
+        },
+        {
+          "card": 9,
+          "estimated_value": 34.0
+        },
+        {
+          "card": 9,
+          "estimated_value": 34.0
+        },
+        {
+          "card": 9,
+          "estimated_value": 34.0
+        },
+        {
+          "card": 9,
+          "estimated_value": 34.0
+        },
+        {
+          "card": 45,
+          "estimated_value": 8.000000000000002
+        },
+        {
+          "card": 40,
+          "estimated_value": 22.0
+        },
+        {
+          "card": 45,
+          "estimated_value": 8.000000000000002
+        },
+        {
+          "card": 40,
+          "estimated_value": 22.0
+        },
+        {
+          "card": 40,
+          "estimated_value": 22.0
+        },
+        {
+          "card": 45,
+          "estimated_value": 8.000000000000002
+        },
+        {
+          "card": 40,
+          "estimated_value": 22.0
+        },
+        {
+          "card": 45,
+          "estimated_value": 8.000000000000002
+        },
+        {
+          "card": 33,
+          "estimated_value": 11.5
+        },
+        {
+          "card": 33,
+          "estimated_value": 11.5
+        },
+        {
+          "card": 17,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 8,
+          "estimated_value": 15.0
+        },
+        {
+          "card": 8,
+          "estimated_value": 15.0
+        },
+        {
+          "card": 17,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 8,
+          "estimated_value": 15.0
+        },
+        {
+          "card": 17,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 8,
+          "estimated_value": 15.0
+        },
+        {
+          "card": 17,
+          "estimated_value": 15.5
+        },
+        {
+          "card": 39,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 39,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 46,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 39,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 46,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 39,
+          "estimated_value": 12.5
+        },
+        {
+          "card": 43,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 43,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 43,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 43,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 30,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 5,
+          "estimated_value": 18.0
+        },
+        {
+          "card": 30,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 5,
+          "estimated_value": 18.0
+        },
+        {
+          "card": 30,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 5,
+          "estimated_value": 18.0
+        },
+        {
+          "card": 5,
+          "estimated_value": 18.0
+        },
+        {
+          "card": 30,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 30,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 28,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 30,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 28,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 30,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 28,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 28,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 30,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 45,
+          "estimated_value": 8.000000000000002
+        },
+        {
+          "card": 13,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 13,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 45,
+          "estimated_value": 8.000000000000002
+        },
+        {
+          "card": 13,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 45,
+          "estimated_value": 8.000000000000002
+        },
+        {
+          "card": 13,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 45,
+          "estimated_value": 8.000000000000002
+        },
+        {
+          "card": 13,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 13,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 13,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 13,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 14,
+          "estimated_value": 14.000000000000002
+        },
+        {
+          "card": 14,
+          "estimated_value": 14.000000000000002
+        },
+        {
+          "card": 14,
+          "estimated_value": 14.000000000000002
+        },
+        {
+          "card": 14,
+          "estimated_value": 14.000000000000002
+        },
+        {
+          "card": 44,
+          "estimated_value": 12.000000000000002
+        },
+        {
+          "card": 47,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 47,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 44,
+          "estimated_value": 12.000000000000002
+        },
+        {
+          "card": 47,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 44,
+          "estimated_value": 12.000000000000002
+        },
+        {
+          "card": 47,
+          "estimated_value": 3.0
+        },
+        {
+          "card": 44,
+          "estimated_value": 12.000000000000002
+        },
+        {
+          "card": 40,
+          "estimated_value": 10.0
+        },
+        {
+          "card": 40,
+          "estimated_value": 10.0
+        },
+        {
+          "card": 17,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 40,
+          "estimated_value": 10.0
+        },
+        {
+          "card": 40,
+          "estimated_value": 10.0
+        },
+        {
+          "card": 17,
+          "estimated_value": 5.0
+        },
+        {
+          "card": 45,
+          "estimated_value": 8.000000000000002
+        },
+        {
+          "card": 45,
+          "estimated_value": 8.000000000000002
+        },
+        {
+          "card": 45,
+          "estimated_value": 8.000000000000002
+        },
+        {
+          "card": 45,
+          "estimated_value": 8.000000000000002
+        },
+        {
+          "card": 30,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 43,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 43,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 30,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 43,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 30,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 30,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 43,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 3,
+          "estimated_value": 17.5
+        },
+        {
+          "card": 3,
+          "estimated_value": 17.5
+        },
+        {
+          "card": 3,
+          "estimated_value": 17.5
+        },
+        {
+          "card": 3,
+          "estimated_value": 17.5
+        },
+        {
+          "card": 5,
+          "estimated_value": 27.0
+        },
+        {
+          "card": 5,
+          "estimated_value": 27.0
+        },
+        {
+          "card": 16,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 16,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 16,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 16,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 28,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 28,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 28,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 25,
+          "estimated_value": -7.5
+        },
+        {
+          "card": 28,
+          "estimated_value": 7.5
+        },
+        {
+          "card": 8,
+          "estimated_value": 15.0
+        },
+        {
+          "card": 16,
+          "estimated_value": 14.5
+        },
+        {
+          "card": 16,
+          "estimated_value": 14.5
+        },
+        {
+          "card": 8,
+          "estimated_value": 15.0
+        },
+        {
+          "card": 16,
+          "estimated_value": 14.5
+        },
+        {
+          "card": 8,
+          "estimated_value": 15.0
+        },
+        {
+          "card": 8,
+          "estimated_value": 15.0
+        },
+        {
+          "card": 16,
+          "estimated_value": 14.5
+        },
+        {
+          "card": 33,
+          "estimated_value": 5.5
+        },
+        {
+          "card": 33,
+          "estimated_value": 5.5
+        },
+        {
+          "card": 33,
+          "estimated_value": 5.5
+        },
+        {
+          "card": 33,
+          "estimated_value": 5.5
+        },
+        {
+          "card": 43,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 0,
+          "estimated_value": 5.5
+        },
+        {
+          "card": 43,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 0,
+          "estimated_value": 5.5
+        },
+        {
+          "card": 0,
+          "estimated_value": 5.5
+        },
+        {
+          "card": 43,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 43,
+          "estimated_value": 2.4999999999999982
+        },
+        {
+          "card": 0,
+          "estimated_value": 5.5
+        },
+        {
+          "card": 40,
+          "estimated_value": 22.0
+        },
+        {
+          "card": 40,
+          "estimated_value": 22.0
+        },
+        {
+          "card": 40,
+          "estimated_value": 22.0
+        },
+        {
+          "card": 40,
+          "estimated_value": 22.0
+        },
+        {
+          "card": 46,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 46,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 30,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 46,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 30,
+          "estimated_value": 13.0
+        },
+        {
+          "card": 46,
+          "estimated_value": -4.999999999999999
+        },
+        {
+          "card": 45,
+          "estimated_value": 8.000000000000002
+        },
+        {
+          "card": 45,
+          "estimated_value": 8.000000000000002
+        }
+      ],
+      "matches_with_rob": 252,
+      "win_rate_in_matches_with_rob": 0.36904761904761907,
+      "invalid_action_count": 0,
+      "illegal_mask_action_disagreement_count": 0,
+      "mean_episodic_return": -0.03999999999999999,
+      "return_variance": 0.30506666666666665,
+      "mean_game_length": 43.638,
+      "inference_latency_ms": 0.3525030015149506,
+      "bradley_terry_rating": 1517.3938571340727,
+      "training_steps": 9455668,
+      "training_wall_clock_seconds": null,
+      "model_parameter_count": 550761,
+      "checkpoint_identifier": "ppo_curriculum_rules3.best.pt",
+      "training_seed": 3,
+      "evaluation_seeds": [
+        15001,
+        15002,
+        15003,
+        15004,
+        15005,
+        1015004,
+        1015005,
+        1015006,
+        1015007,
+        1015008,
+        2015007,
+        2015008,
+        2015009,
+        2015010,
+        2015011,
+        3015010,
+        3015011,
+        3015012,
+        3015013,
+        3015014,
+        4015013,
+        4015014,
+        4015015,
+        4015016,
+        4015017,
+        5015016,
+        5015017,
+        5015018,
+        5015019,
+        5015020,
+        6015019,
+        6015020,
+        6015021,
+        6015022,
+        6015023,
+        7015022,
+        7015023,
+        7015024,
+        7015025,
+        7015026,
+        8015025,
+        8015026,
+        8015027,
+        8015028,
+        8015029,
+        9015028,
+        9015029,
+        9015030,
+        9015031,
+        9015032,
+        10015031,
+        10015032,
+        10015033,
+        10015034,
+        10015035,
+        11015034,
+        11015035,
+        11015036,
+        11015037,
+        11015038,
+        12015037,
+        12015038,
+        12015039
+      ]
+    }
+  ],
+  "two_player_head_to_head_matrix": {
+    "random": {
+      "random": null,
+      "lowest": 0.652,
+      "greedy": 0.374,
+      "conservative": 0.36,
+      "counting": 0.364,
+      "rules3_final": 0.402,
+      "rules3_best": 0.41
+    },
+    "lowest": {
+      "random": 0.348,
+      "lowest": null,
+      "greedy": 0.174,
+      "conservative": 0.278,
+      "counting": 0.288,
+      "rules3_final": 0.246,
+      "rules3_best": 0.27
+    },
+    "greedy": {
+      "random": 0.626,
+      "lowest": 0.826,
+      "greedy": null,
+      "conservative": 0.59,
+      "counting": 0.592,
+      "rules3_final": 0.55,
+      "rules3_best": 0.574
+    },
+    "conservative": {
+      "random": 0.64,
+      "lowest": 0.722,
+      "greedy": 0.41,
+      "conservative": null,
+      "counting": 0.518,
+      "rules3_final": 0.512,
+      "rules3_best": 0.54
+    },
+    "counting": {
+      "random": 0.636,
+      "lowest": 0.712,
+      "greedy": 0.408,
+      "conservative": 0.482,
+      "counting": null,
+      "rules3_final": 0.496,
+      "rules3_best": 0.528
+    },
+    "rules3_final": {
+      "random": 0.598,
+      "lowest": 0.754,
+      "greedy": 0.45,
+      "conservative": 0.488,
+      "counting": 0.504,
+      "rules3_final": null,
+      "rules3_best": 0.52
+    },
+    "rules3_best": {
+      "random": 0.59,
+      "lowest": 0.73,
+      "greedy": 0.426,
+      "conservative": 0.46,
+      "counting": 0.472,
+      "rules3_final": 0.48,
+      "rules3_best": null
+    }
+  },
+  "multiplayer_homogeneous_table_matrix": {
+    "random": {
+      "random": null,
+      "lowest": 0.53,
+      "greedy": 0.18,
+      "conservative": 0.09,
+      "counting": 0.17,
+      "rules3_final": 0.2,
+      "rules3_best": 0.18
+    },
+    "lowest": {
+      "random": 0.21,
+      "lowest": null,
+      "greedy": 0.13,
+      "conservative": 0.16,
+      "counting": 0.09,
+      "rules3_final": 0.13,
+      "rules3_best": 0.12
+    },
+    "greedy": {
+      "random": 0.33,
+      "lowest": 0.7,
+      "greedy": null,
+      "conservative": 0.21,
+      "counting": 0.25,
+      "rules3_final": 0.33,
+      "rules3_best": 0.33
+    },
+    "conservative": {
+      "random": 0.35,
+      "lowest": 0.66,
+      "greedy": 0.3,
+      "conservative": null,
+      "counting": 0.25,
+      "rules3_final": 0.25,
+      "rules3_best": 0.29
+    },
+    "counting": {
+      "random": 0.31,
+      "lowest": 0.37,
+      "greedy": 0.24,
+      "conservative": 0.33,
+      "counting": null,
+      "rules3_final": 0.17,
+      "rules3_best": 0.24
+    },
+    "rules3_final": {
+      "random": 0.25,
+      "lowest": 0.67,
+      "greedy": 0.25,
+      "conservative": 0.21,
+      "counting": 0.33,
+      "rules3_final": null,
+      "rules3_best": 0.22
+    },
+    "rules3_best": {
+      "random": 0.26,
+      "lowest": 0.66,
+      "greedy": 0.26,
+      "conservative": 0.29,
+      "counting": 0.37,
+      "rules3_final": 0.21,
+      "rules3_best": null
+    }
+  },
+  "multiplayer_matchup_games_per_cell": 100,
+  "cyclic_matchups": [],
+  "note": "Main win rates use a fixed candidate-independent suite; candidate matchups are separate diagnostics."
+}

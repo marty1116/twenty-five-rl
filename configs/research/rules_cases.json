@@ -1,0 +1,9 @@
+[
+  {"name": "ace_can_ruff_hearts", "trump": "SPADES", "hand": ["AH", "2H", "2C"], "lead": "KH", "legal": ["AH", "2H"]},
+  {"name": "jack_requires_lone_ace", "trump": "SPADES", "hand": ["AH", "2D"], "lead": "JS", "legal": ["AH"]},
+  {"name": "five_requires_lone_ace", "trump": "SPADES", "hand": ["AH", "2D"], "lead": "5S", "legal": ["AH"]},
+  {"name": "king_allows_ace_reneging", "trump": "SPADES", "hand": ["AH", "2D"], "lead": "KS", "legal": ["AH", "2D"]},
+  {"name": "five_can_be_withheld", "trump": "SPADES", "hand": ["5S", "2D"], "lead": "JS", "legal": ["5S", "2D"]},
+  {"name": "ordinary_trump_requires_trump", "trump": "SPADES", "hand": ["AH", "2S", "2D"], "lead": "KS", "legal": ["AH", "2S"]},
+  {"name": "any_trump_can_ruff", "trump": "CLUBS", "hand": ["2C", "2D", "2S"], "lead": "KD", "legal": ["2C", "2D"]}
+]

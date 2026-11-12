@@ -1,0 +1,30 @@
+{
+  "algorithm": "ppo",
+  "train": {
+    "updates": 3000,
+    "seed": 1,
+    "output": "artifacts/checkpoints/ppo_self_play_v2.pt",
+    "players": 4,
+    "num_envs": 32,
+    "horizon": 256,
+    "self_play": true,
+    "device": "cuda",
+    "batch_size": 2048,
+    "architecture": "mlp",
+    "opponent_names": [
+      "conservative",
+      "counting"
+    ],
+    "reward": "terminal",
+    "self_play_snapshot_interval": 25,
+    "self_play_pool_size": 8,
+    "eval_interval": 50,
+    "eval_games": 256,
+    "eval_opponent": "counting",
+    "checkpoint_interval": 100,
+    "keep_snapshots": 5,
+    "tensorboard_dir": "artifacts/tensorboard/ppo_self_play_v2",
+    "gamma": 1.0,
+    "entropy_coefficient": 0.0
+  }
+}

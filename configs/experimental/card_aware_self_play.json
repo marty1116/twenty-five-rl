@@ -1,0 +1,31 @@
+{
+  "algorithm": "ppo",
+  "experimental": true,
+  "train": {
+    "updates": 3000,
+    "seed": 2,
+    "output": "artifacts/checkpoints/experimental/ppo_card_aware_v2.pt",
+    "players": 4,
+    "num_envs": 32,
+    "horizon": 256,
+    "self_play": true,
+    "device": "cuda",
+    "batch_size": 2048,
+    "architecture": "card_aware",
+    "opponent_names": [
+      "conservative",
+      "counting"
+    ],
+    "reward": "terminal",
+    "self_play_snapshot_interval": 25,
+    "self_play_pool_size": 8,
+    "eval_interval": 50,
+    "eval_games": 256,
+    "eval_opponent": "counting",
+    "checkpoint_interval": 100,
+    "keep_snapshots": 5,
+    "tensorboard_dir": "artifacts/tensorboard/experimental/ppo_card_aware_v2",
+    "gamma": 1.0,
+    "entropy_coefficient": 0.0
+  }
+}

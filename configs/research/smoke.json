@@ -1,0 +1,81 @@
+{
+  "output_root": "artifacts/research/smoke-v2",
+  "seeds": [
+    11
+  ],
+  "common": {
+    "players": 4,
+    "reward": "terminal",
+    "opponent_names": [
+      "random"
+    ],
+    "gamma": 1.0
+  },
+  "evaluation": {
+    "games": 16,
+    "matchup_games": 16,
+    "baselines": [
+      "random",
+      "greedy"
+    ]
+  },
+  "experiments": [
+    {
+      "name": "mc",
+      "algorithm": "mc",
+      "train": {
+        "episodes": 16
+      }
+    },
+    {
+      "name": "sarsa",
+      "algorithm": "sarsa",
+      "train": {
+        "episodes": 16
+      }
+    },
+    {
+      "name": "q_learning",
+      "algorithm": "q_learning",
+      "train": {
+        "episodes": 16
+      }
+    },
+    {
+      "name": "expected_sarsa",
+      "algorithm": "expected_sarsa",
+      "train": {
+        "episodes": 16
+      }
+    },
+    {
+      "name": "dqn",
+      "algorithm": "dqn",
+      "train": {
+        "episodes": 16,
+        "device": "cpu",
+        "num_envs": 2,
+        "batch_size": 8,
+        "warmup_steps": 8,
+        "replay_capacity": 128,
+        "eval_games": 0,
+        "checkpoint_interval": 0
+      }
+    },
+    {
+      "name": "ppo",
+      "algorithm": "ppo",
+      "train": {
+        "updates": 2,
+        "device": "cpu",
+        "num_envs": 2,
+        "horizon": 16,
+        "batch_size": 32,
+        "epochs": 1,
+        "eval_games": 0,
+        "checkpoint_interval": 0,
+        "progress": false
+      }
+    }
+  ]
+}
